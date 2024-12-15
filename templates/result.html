@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EQ Prediction Result</title>
+    <link rel="stylesheet" href="static/style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emotional Quotient Analysis</h1>
+        <p class="score">Your EQ score: <span>{{ score }}</span></p>
+
+        <h2>Recommendations:</h2>
+        <ul class="recommendations">
+            {% for rec in recommendation %}
+                <li>{{ rec }}</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Additional Insights:</h3>
+        <ul class="recommendations">
+            {% for recs in recommendations %}
+                <li>{{ recs }}</li>
+            {% endfor %}
+        </ul>
+
+        <a class="back-button" href="/">Go Back</a>
+    </div>
+</body>
+</html>

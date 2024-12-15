@@ -1,0 +1,92 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 28px;
+}
+
+.score {
+    font-size: 22px;
+    font-weight: bold;
+    color: #3498db;
+    text-align: center;
+}
+
+.score span {
+    font-size: 24px;
+    color: #2980b9;
+}
+
+h2, h3 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+.recommendations {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.recommendations li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+a.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+a.back-button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .score {
+        font-size: 18px;
+    }
+
+    .recommendations li {
+        font-size: 14px;
+    }
+}

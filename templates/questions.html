@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EQ Questions</title>
+    <link rel="stylesheet" href="static/style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emotional Agility Questionnaire</h1>
+        <form method="POST" action="/predict">
+            {% for question in questions %}
+            <div class="question-block">
+                <p><strong>{{ question['question']['question'] }}</strong></p>
+                <div class="options">
+                    {% for option in question['question']['options'] %}
+                    <label>
+                        <input 
+                            type="radio" 
+                            name="{{ question['parameter'] }}" 
+                            value="{{ question['question'].get('answer_mapping', {}).get(option.split(':')[0], 0) }}"
+                            required>
+                        {{ option }}
+                    </label><br>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+
+            <!-- Submit Button -->
+            <div class="submit-btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
