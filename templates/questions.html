@@ -5,10 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EQ Questions</title>
     <link rel="stylesheet" href="static/style1.css">
+    <script>
+        let currentQuestion = 0;
+
+        function showQuestion(index) {
+            const questions = document.querySelectorAll('.question-block');
+            questions.forEach((question, i) => {
+                question.style.display = (i === index) ? 'block' : 'none';
+            });
+            document.getElementById('nextButton').style.display = (index === questions.length - 1) ? 'none' : 'inline-block';
+            document.getElementById('submitButton').style.display = (index === questions.length - 1) ? 'inline-block' : 'none';
+            document.getElementById('nextButton').disabled = !isOptionSelected();
+            updateProgressBar(index + 1, questions.length);
+            hideAlert();
+        }
+
+        function isOptionSelected() {
+            const currentOptions = document.querySelectorAll('.question-block')[currentQuestion]
+                .querySelectorAll('input[type="radio"]');
+            return Array.from(currentOptions).some(option => option.checked);
+        }
+
+        function nextQuestion() {
+            if (isOptionSelected()) {
+                currentQuestion++;
+                showQuestion(currentQuestion);
+            } else {
+                showAlert();
+            }
+        }
+
+        function updateProgressBar(current, total) {
+            const progressBar = document.getElementById('progressBar');
+            const progressText = document.getElementById('progressText');
+            const progress = (current / total) * 100;
+            progressBar.style.width = `${progress}%`;
+            progressText.innerText = `Question ${current} of ${total}`;
+        }
+
+        function enableNextButton() {
+            document.getElementById('nextButton').disabled = false;
+            hideAlert();
+        }
+
+        function showAlert() {
+            const currentQuestionBlock = document.querySelector('.question-block[style*="display: block"]');
+            const alertMessage = currentQuestionBlock.querySelector('.alertMessage');
+            alertMessage.style.display = 'block';
+        }
+
+        function hideAlert() {
+            const currentQuestionBlock = document.querySelector('.question-block[style*="display: block"]');
+            const alertMessage = currentQuestionBlock.querySelector('.alertMessage');
+            alertMessage.style.display = 'none';
+        }
+
+        window.onload = function() {
+            showQuestion(currentQuestion);
+            document.querySelectorAll('input[type="radio"]').forEach(radio => {
+                radio.addEventListener('change', enableNextButton);
+            });
+        };
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Emotional Agility Questionnaire</h1>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <div class="progress-text" id="progressText"></div>
+        </div>
         <form method="POST" action="/predict">
             {% for question in questions %}
             <div class="question-block">
@@ -25,12 +91,13 @@
                     </label><br>
                     {% endfor %}
                 </div>
+                <p class="alertMessage" style="display: none; color: red;">Please select an option before proceeding.</p>
             </div>
             {% endfor %}
-
-            <!-- Submit Button -->
+            
             <div class="submit-btn">
-                <button type="submit">Submit</button>
+                <button type="button" id="nextButton" onclick="nextQuestion()">Next</button>
+                <button type="submit" id="submitButton" style="display: none;">Submit</button>
             </div>
         </form>
     </div>

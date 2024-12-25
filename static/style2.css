@@ -1,92 +1,67 @@
-/* Global styles */
+/* style2.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(to right, #b186e0, #6c97e1);
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    width: 80%;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 600px;
+    text-align: left; /* Updated to left-align content */
 }
 
 h1 {
-    text-align: center;
-    color: #2c3e50;
-    font-size: 28px;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #7278eb;
+    text-align: center; /* Center align the h1 tag */
 }
 
-.score {
-    font-size: 22px;
+.score, .eq-evaluation {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.score span, .eq-evaluation span {
     font-weight: bold;
-    color: #3498db;
-    text-align: center;
+    color: #7075de;
 }
 
-.score span {
-    font-size: 24px;
-    color: #2980b9;
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #7d82e3;
 }
 
-h2, h3 {
-    color: #34495e;
-    margin-top: 30px;
+.recommendation {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
-.recommendations {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
-}
-
-.recommendations li {
-    background-color: #ecf0f1;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-a.back-button {
+.back-button {
     display: inline-block;
-    margin-top: 30px;
-    padding: 10px 20px;
-    background-color: #3498db;
+    background: #7e83e1;
     color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    text-align: center;
-    width: 100%;
-    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
-a.back-button:hover {
-    background-color: #2980b9;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        padding: 20px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    .score {
-        font-size: 18px;
-    }
-
-    .recommendations li {
-        font-size: 14px;
-    }
+.back-button:hover {
+    background: #9d5ce2;
 }

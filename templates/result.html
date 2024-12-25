@@ -9,22 +9,22 @@
 <body>
     <div class="container">
         <h1>Emotional Quotient Analysis</h1>
-        <p class="score">Your EQ score: <span>{{ score }}</span></p>
 
-        <h2>Recommendations:</h2>
-        <ul class="recommendations">
-            {% for rec in recommendation %}
-                <li>{{ rec }}</li>
+        <!-- Display EQ Score -->
+        <p class="score">Your EQ Score: <span>{{ score }}</span></p>
+        
+        <!-- Display EQ Classification -->
+        <p class="eq-evaluation">EQ Classification: <span>{{ age_eval }}</span></p>
+
+        <!-- Display Recommendations -->
+        <h2>Personalized Recommendations:</h2>
+        <div class="recommendation">
+            {% for recommendation in recommendations %}
+                <p>{{ recommendation }}</p>
             {% endfor %}
-        </ul>
+        </div>
 
-        <h3>Additional Insights:</h3>
-        <ul class="recommendations">
-            {% for recs in recommendations %}
-                <li>{{ recs }}</li>
-            {% endfor %}
-        </ul>
-
+        <!-- Back Button -->
         <a class="back-button" href="/">Go Back</a>
     </div>
 </body>

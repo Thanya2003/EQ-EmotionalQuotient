@@ -1,763 +1,768 @@
 {
     "EyeContact": [
-    {
-      "question": "When your child speaks to family members, how do they maintain eye contact?",
-      "options": [
-        "A: They maintain eye contact and seem engaged.",
-        "B: They look at family members but occasionally glance away.",
-        "C: They often look at the ground or away.",
-        "D: They avoid making eye contact entirely."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond when meeting new people?",
-      "options": [
-        "A: They confidently make eye contact and smile.",
-        "B: They look at the person but seem shy.",
-        "C: They avoid eye contact and seem uncomfortable.",
-        "D: They look away and don’t acknowledge the person."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child react when someone is speaking to them?",
-      "options": [
-        "A: They look at the speaker and nod to show they are listening.",
-        "B: They occasionally make eye contact but look away often.",
-        "C: They don’t seem to pay much attention.",
-        "D: They look away and appear uninterested."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child behave during a presentation or speech?",
-      "options": [
-        "A: They maintain eye contact with the audience.",
-        "B: They make eye contact but often look at their notes.",
-        "C: They glance at the audience but mainly look down.",
-        "D: They avoid eye contact and focus on their notes."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child interact with adults?",
-      "options": [
-        "A: They look adults in the eye and engage confidently.",
-        "B: They are polite but avoid direct eye contact.",
-        "C: They appear shy and look down when speaking.",
-        "D: They seem uncomfortable and avoid eye contact altogether."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "Behaviour": [
-    {
-      "question": "How does your child behave in group settings?",
-      "options": [
-        "A: They actively participate and engage with others.",
-        "B: They join in but sometimes stay quiet.",
-        "C: They seem withdrawn and prefer to stay on the sidelines.",
-        "D: They act out or disrupt the group."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child react when they want something?",
-      "options": [
-        "A: They ask politely and wait for a response.",
-        "B: They ask but might become impatient.",
-        "C: They often whine or complain to get their way.",
-        "D: They throw a tantrum or become upset."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child treat their belongings?",
-      "options": [
-        "A: They take care of their things and keep them organized.",
-        "B: They manage but sometimes leave things out.",
-        "C: They often forget or misplace their belongings.",
-        "D: They are careless and do not take care of their items."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to rules at home?",
-      "options": [
-        "A: They follow rules and respect boundaries.",
-        "B: They sometimes follow rules but need reminders.",
-        "C: They frequently challenge rules and push limits.",
-        "D: They ignore rules altogether."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child show kindness to others?",
-      "options": [
-        "A: They often help others and show compassion.",
-        "B: They are kind but may need encouragement.",
-        "C: They sometimes struggle to be kind.",
-        "D: They rarely show kindness or concern for others."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "SocialRelationship": [
-    {
-      "question": "How does your child make new friends?",
-      "options": [
-        "A: They approach others and introduce themselves easily.",
-        "B: They wait for others to come to them.",
-        "C: They feel shy and don’t know how to start a conversation.",
-        "D: They prefer to stay alone and don’t seek friendships."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child maintain friendships?",
-      "options": [
-        "A: They keep in touch and make plans regularly.",
-        "B: They reach out occasionally but may not follow up.",
-        "C: They have trouble staying connected.",
-        "D: They rarely interact with friends."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child handle conflicts with friends?",
-      "options": [
-        "A: They talk things out and try to resolve the issue.",
-        "B: They avoid the issue but still want to be friends.",
-        "C: They often argue and struggle to find a solution.",
-        "D: They ignore the conflict and act like nothing happened."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to invitations to play with others?",
-      "options": [
-        "A: They excitedly accept and look forward to playing.",
-        "B: They agree but seem indifferent.",
-        "C: They often decline invitations.",
-        "D: They avoid social interactions and prefer to be alone."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "SpeechConveyance": [
-    {
-      "question": "How clearly does your child express their thoughts?",
-      "options": [
-        "A: They articulate their ideas clearly and confidently.",
-        "B: They express themselves but sometimes struggle with words.",
-        "C: They mumble or speak too softly.",
-        "D: They have trouble getting their point across."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child ask for help when needed?",
-      "options": [
-        "A: They confidently ask for help when unsure.",
-        "B: They hesitate but eventually ask.",
-        "C: They avoid asking and try to figure it out alone.",
-        "D: They become frustrated and refuse to ask for help."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child share stories or experiences with others?",
-      "options": [
-        "A: They tell stories enthusiastically and keep others engaged.",
-        "B: They share stories but lack detail.",
-        "C: They struggle to share and often get distracted.",
-        "D: They don’t share stories or experiences with others."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond when asked a question?",
-      "options": [
-        "A: They answer confidently and provide explanations.",
-        "B: They answer but seem unsure.",
-        "C: They often give short or unclear answers.",
-        "D: They avoid answering or go silent."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child engage in conversations with peers?",
-      "options": [
-        "A: They actively participate and ask questions.",
-        "B: They join in but mainly listen.",
-        "C: They rarely contribute to conversations.",
-        "D: They seem uninterested in talking."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-"ConcentrationLevel": [
-    {
-      "question": "How does your child focus on homework or school projects?",
-      "options": [
-        "A: They concentrate and complete tasks efficiently.",
-        "B: They focus but need occasional breaks.",
-        "C: They struggle to concentrate and often get distracted.",
-        "D: They avoid homework and find excuses not to do it."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child behave during lessons in school?",
-      "options": [
-        "A: They pay attention and participate actively.",
-        "B: They listen but may zone out at times.",
-        "C: They often get distracted by their surroundings.",
-        "D: They are disruptive and do not focus."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond when engaged in a game or activity?",
-      "options": [
-        "A: They focus and enjoy the activity fully.",
-        "B: They participate but get distracted occasionally.",
-        "C: They frequently lose interest and wander off.",
-        "D: They struggle to stay engaged and leave the activity early."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child handle noisy environments?",
-      "options": [
-        "A: They stay focused and block out distractions.",
-        "B: They struggle but can manage with effort.",
-        "C: They get easily distracted and can’t concentrate.",
-        "D: They become overwhelmed and can’t focus at all."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child react when they have multiple tasks to complete?",
-      "options": [
-        "A: They manage their time well and prioritize tasks.",
-        "B: They try to juggle tasks but feel stressed.",
-        "C: They struggle to keep track and feel overwhelmed.",
-        "D: They avoid doing any tasks altogether."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "SelfRegulation": [
-    {
-      "question": "How does your child handle frustration?",
-      "options": [
-        "A: They stay calm and try to solve the problem.",
-        "B: They feel frustrated but manage to cope.",
-        "C: They often get upset and express their anger.",
-        "D: They lose control and throw a tantrum."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to disappointing news?",
-      "options": [
-        "A: They accept it and look for alternatives.",
-        "B: They feel sad but eventually move on.",
-        "C: They dwell on it and become upset.",
-        "D: They refuse to accept it and act out."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child react when they need to wait for something?",
-      "options": [
-        "A: They patiently wait without complaint.",
-        "B: They fidget or ask how much longer.",
-        "C: They express anger and frustration.",
-        "D: They get upset and refuse to wait."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child behave when they have to follow rules?",
-      "options": [
-        "A: They understand and follow rules without issue.",
-        "B: They sometimes question the rules but generally follow them.",
-        "C: They resist rules and challenge authority.",
-        "D: They ignore rules and do what they want."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to peer pressure?",
-      "options": [
-        "A: They confidently stand their ground and say no.",
-        "B: They hesitate but usually make the right choice.",
-        "C: They feel pressured and often go along with friends.",
-        "D: They give in and do things they shouldn’t."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "StressLevel": [
-    {
-      "question": "How does your child handle stressful situations, like exams?",
-      "options": [
-        "A: They stay calm and prepare well.",
-        "B: They feel a little anxious but manage it.",
-        "C: They become very stressed and have trouble focusing.",
-        "D: They panic and struggle to cope."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child react to changes in routine?",
-      "options": [
-        "A: They adapt quickly and adjust their plans.",
-        "B: They take a little time to adjust but manage.",
-        "C: They feel anxious and resist the changes.",
-        "D: They become upset and refuse to change."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond when faced with multiple tasks?",
-      "options": [
-        "A: They prioritize and handle tasks well.",
-        "B: They feel overwhelmed but try to manage.",
-        "C: They struggle to keep up and feel stressed.",
-        "D: They freeze and don’t know where to start."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child behave when there’s a lot of noise around?",
-      "options": [
-        "A: They can focus despite the noise.",
-        "B: They find it a bit distracting but cope.",
-        "C: They become annoyed and can’t concentrate.",
-        "D: They feel overwhelmed and leave the area."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child cope with disappointment?",
-      "options": [
-        "A: They accept it and move forward positively.",
-        "B: They feel sad but bounce back.",
-        "C: They dwell on the disappointment and become upset.",
-        "D: They react angrily and refuse to accept it."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "BodyMind": [
-    {
-      "question": "How does your child perform physical activities or sports?",
-      "options": [
-        "A: They excel and participate with enthusiasm.",
-        "B: They try their best but may struggle.",
-        "C: They avoid physical activities and prefer sitting out.",
-        "D: They have difficulty coordinating movements."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child react when trying new physical skills?",
-      "options": [
-        "A: They are excited and eager to learn.",
-        "B: They feel nervous but give it a try.",
-        "C: They hesitate and might refuse to try.",
-        "D: They become frustrated and give up easily."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child behave during dance or movement activities?",
-      "options": [
-        "A: They join in and move confidently.",
-        "B: They participate but seem shy.",
-        "C: They are unsure and move hesitantly.",
-        "D: They avoid movement activities altogether."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child coordinate their movements while playing?",
-      "options": [
-        "A: They move fluidly and enjoy playing games.",
-        "B: They are somewhat coordinated but stumble occasionally.",
-        "C: They often trip or bump into things.",
-        "D: They have trouble controlling their movements."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-"Empathy": [
-    {
-      "question": "How does your child respond when they see someone sad?",
-      "options": [
-        "A: They ask if the person is okay and offer comfort.",
-        "B: They notice but don’t know how to help.",
-        "C: They ignore it and move on.",
-        "D: They laugh or make jokes, not understanding the situation."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child react when they hear about someone else's problems?",
-      "options": [
-        "A: They express concern and ask questions.",
-        "B: They listen but don’t say much.",
-        "C: They seem uninterested and change the topic.",
-        "D: They dismiss the issue and say it’s not a big deal."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child comfort a friend who is upset?",
-      "options": [
-        "A: They offer a hug and listen to their feelings.",
-        "B: They try to cheer them up with jokes.",
-        "C: They feel uncomfortable and don’t know what to do.",
-        "D: They ignore their friend and do something else."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to stories or movies with sad endings?",
-      "options": [
-        "A: They express sadness and talk about their feelings.",
-        "B: They feel a bit sad but move on quickly.",
-        "C: They don’t seem affected by the ending.",
-        "D: They laugh or make light of the situation."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child show care for pets or animals?",
-      "options": [
-        "A: They take time to play with and care for them.",
-        "B: They occasionally check in on their pets.",
-        "C: They seem indifferent and rarely interact.",
-        "D: They are rough or careless with animals."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "Motivation": [
-    {
-      "question": "How does your child react when faced with a challenging task?",
-      "options": [
-        "A: They tackle it with enthusiasm and determination.",
-        "B: They feel nervous but try their best.",
-        "C: They hesitate and need encouragement.",
-        "D: They give up quickly when things get tough."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child approach goals or projects?",
-      "options": [
-        "A: They set goals and work hard to achieve them.",
-        "B: They have some goals but struggle to follow through.",
-        "C: They seem unmotivated and lack direction.",
-        "D: They don’t set goals and avoid challenges."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to praise or rewards?",
-      "options": [
-        "A: They feel proud and motivated to do more.",
-        "B: They appreciate it but don’t seek it out.",
-        "C: They seem indifferent to praise or rewards.",
-        "D: They become overly reliant on praise to feel good."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child handle setbacks or failures?",
-      "options": [
-        "A: They learn from it and try again.",
-        "B: They feel disappointed but eventually move on.",
-        "C: They dwell on the failure and feel discouraged.",
-        "D: They give up entirely and refuse to try again."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to learning new skills?",
-      "options": [
-        "A: They are excited and eager to learn.",
-        "B: They feel nervous but want to try.",
-        "C: They seem reluctant and avoid new challenges.",
-        "D: They don’t care to learn new things."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "Mindfulness": [
-    {
-      "question": "How does your child react during quiet or reflection time?",
-      "options": [
-        "A: They embrace the quiet and use the time to relax.",
-        "B: They feel a bit restless but manage.",
-        "C: They struggle to sit still and focus.",
-        "D: They dislike quiet time and find it boring."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child handle distractions while studying?",
-      "options": [
-        "A: They stay focused and manage distractions well.",
-        "B: They sometimes get distracted but refocus quickly.",
-        "C: They easily lose focus and struggle to get back on track.",
-        "D: They give in to distractions and can’t concentrate."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child practice being present in the moment?",
-      "options": [
-        "A: They can enjoy activities without distraction.",
-        "B: They sometimes get lost in their thoughts.",
-        "C: They often daydream and lose track of the activity.",
-        "D: They have difficulty engaging with the present."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond when they feel overwhelmed?",
-      "options": [
-        "A: They take a moment to breathe and gather themselves.",
-        "B: They feel overwhelmed but try to cope.",
-        "C: They panic and struggle to calm down.",
-        "D: They become frantic and can’t regain control."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child engage in activities that require patience?",
-      "options": [
-        "A: They are patient and enjoy the process.",
-        "B: They sometimes fidget but keep trying.",
-        "C: They quickly lose interest and give up.",
-        "D: They become frustrated and act out."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "SelfAwareness": [
-    {
-      "question": "How does your child express their feelings?",
-      "options": [
-        "A: They can name their emotions and talk about them.",
-        "B: They sometimes express how they feel.",
-        "C: They struggle to identify their feelings.",
-        "D: They often deny their feelings and avoid talking about them."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child react to feedback about their behavior?",
-      "options": [
-        "A: They listen and reflect on it thoughtfully.",
-        "B: They consider it but may get defensive.",
-        "C: They ignore feedback and continue as usual.",
-        "D: They become upset and argue against it."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child understand their strengths and weaknesses?",
-      "options": [
-        "A: They can articulate what they do well and where they struggle.",
-        "B: They recognize some strengths but overlook weaknesses.",
-        "C: They have a hard time identifying either.",
-        "D: They refuse to acknowledge their weaknesses."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond when they make a mistake?",
-      "options": [
-        "A: They admit it and learn from it.",
-        "B: They might blame others but feel guilty.",
-        "C: They deny it and refuse to acknowledge the mistake.",
-        "D: They become upset and withdraw."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child reflect on their day?",
-      "options": [
-        "A: They think about what went well and what didn’t.",
-        "B: They consider some things but don’t go into detail.",
-        "C: They don’t think about their day much.",
-        "D: They focus only on the negative aspects."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-"Creativity": [
-    {
-      "question": "How does your child approach creative tasks, like art or storytelling?",
-      "options": [
-        "A: They dive in and enjoy expressing their ideas.",
-        "B: They feel inspired but might hold back.",
-        "C: They struggle to come up with ideas.",
-        "D: They avoid creative tasks altogether."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to new experiences or challenges?",
-      "options": [
-        "A: They are excited to try new things.",
-        "B: They feel hesitant but want to explore.",
-        "C: They are resistant to change and prefer the familiar.",
-        "D: They actively avoid new experiences."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child use their imagination during play?",
-      "options": [
-        "A: They create elaborate stories and scenarios.",
-        "B: They have some imaginative play but stick to familiar ideas.",
-        "C: They engage in play but lack imagination.",
-        "D: They don’t engage in imaginative play."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child handle constructive criticism on their creative work?",
-      "options": [
-        "A: They appreciate it and use it to improve.",
-        "B: They consider it but may feel defensive.",
-        "C: They struggle to accept criticism and ignore it.",
-        "D: They become upset and refuse to discuss it."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child solve problems or puzzles?",
-      "options": [
-        "A: They think creatively and come up with innovative solutions.",
-        "B: They rely on tried-and-true methods but can adapt.",
-        "C: They struggle and feel frustrated by challenges.",
-        "D: They give up quickly when faced with a puzzle."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "TimeManagement": [
-    {
-      "question": "How does your child handle completing tasks on time?",
-      "options": [
-        "A: They manage their time well and meet deadlines.",
-        "B: They sometimes struggle but usually complete tasks.",
-        "C: They often run late and need reminders.",
-        "D: They consistently miss deadlines and give up."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child prioritize their activities?",
-      "options": [
-        "A: They know what is important and focus on it first.",
-        "B: They try to prioritize but get sidetracked.",
-        "C: They have difficulty prioritizing and often feel overwhelmed.",
-        "D: They don’t prioritize and act on impulse."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child plan their day or week?",
-      "options": [
-        "A: They make a schedule and stick to it.",
-        "B: They plan sometimes but often forget.",
-        "C: They rarely plan and go with the flow.",
-        "D: They don’t plan at all and act randomly."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child handle distractions when working on a task?",
-      "options": [
-        "A: They stay focused and avoid distractions.",
-        "B: They sometimes get distracted but refocus.",
-        "C: They easily lose focus and struggle to return to the task.",
-        "D: They give in to distractions and lose track of time."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond to a busy schedule?",
-      "options": [
-        "A: They handle it well and manage their time effectively.",
-        "B: They feel a little overwhelmed but cope.",
-        "C: They become stressed and have trouble keeping up.",
-        "D: They give up and refuse to manage their schedule."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ],
-  "Optimism": [
-    {
-      "question": "How does your child react when they face a setback or challenge?",
-      "options": [
-        "A: They believe things will get better and keep trying.",
-        "B: They feel disappointed but think they can improve next time.",
-        "C: They become discouraged and doubt their abilities.",
-        "D: They believe they will always fail."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "When your child thinks about their future, how do they feel?",
-      "options": [
-        "A: They are excited and look forward to new possibilities.",
-        "B: They feel hopeful but have some concerns.",
-        "C: They worry about what might go wrong.",
-        "D: They don’t see a bright future ahead."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child respond when others express negative opinions or doubts?",
-      "options": [
-        "A: They remain positive and try to encourage others.",
-        "B: They consider the opinions but still feel hopeful.",
-        "C: They start to believe the negative thoughts themselves.",
-        "D: They feel defeated by the negativity."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "When your child thinks about their accomplishments, how do they view them?",
-      "options": [
-        "A: They feel proud and believe they can achieve more.",
-        "B: They appreciate their successes but feel there’s more to do.",
-        "C: They often downplay their achievements.",
-        "D: They feel like they never do well enough."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    },
-    {
-      "question": "How does your child approach new experiences or challenges?",
-      "options": [
-        "A: They look forward to the opportunity to learn something new.",
-        "B: They feel a bit anxious but want to try anyway.",
-        "C: They hesitate and prefer to stick with what they know.",
-        "D: They avoid new experiences out of fear of failure."
-      ],
-      "answer_mapping": { "A": 5, "B": 4,"C": 3, "D": 2}
-    }
-  ]
+      {
+        "question": "When your child speaks to family members, how do they maintain eye contact?",
+        "options": [
+          "A: They avoid making eye contact entirely.",
+          "B: They often look at the ground or away.",
+          "C: They look at family members but occasionally glance away.",
+          "D: They maintain eye contact and seem engaged."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child respond when meeting new people?",
+        "options": [
+          "A: They avoid eye contact and seem uncomfortable.",
+          "B: They look away and don’t acknowledge the person.",
+          "C: They look at the person but seem shy.",
+          "D: They confidently make eye contact and smile."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child react when someone is speaking to them?",
+        "options": [
+          "A: They look away and appear uninterested.",
+          "B: They don’t seem to pay much attention.",
+          "C: They occasionally make eye contact but look away often.",
+          "D: They look at the speaker and nod to show they are listening."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child behave during a presentation or speech?",
+        "options": [
+          "A: They avoid eye contact and focus on their notes.",
+          "B: They glance at the audience but mainly look down.",
+          "C: They make eye contact but often look at their notes.",
+          "D: They maintain eye contact with the audience."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child interact with adults?",
+        "options": [
+          "A: They seem uncomfortable and avoid eye contact altogether.",
+          "B: They appear shy and look down when speaking.",
+          "C: They are polite but avoid direct eye contact.",
+          "D: They look adults in the eye and engage confidently."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      }
+    ],
+    "Behaviour": [
+      {
+        "question": "How does your child behave in group settings?",
+        "options": [
+          "A: They act out or disrupt the group.",
+          "B: They seem withdrawn and prefer to stay on the sidelines.",
+          "C: They join in but sometimes stay quiet.",
+          "D: They actively participate and engage with others."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child react when they want something?",
+        "options": [
+          "A: They throw a tantrum or become upset.",
+          "B: They often whine or complain to get their way.",
+          "C: They ask but might become impatient.",
+          "D: They ask politely and wait for a response."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child treat their belongings?",
+        "options": [
+          "A: They are careless and do not take care of their items.",
+          "B: They often forget or misplace their belongings.",
+          "C: They manage but sometimes leave things out.",
+          "D: They take care of their things and keep them organized."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child respond to rules at home?",
+        "options": [
+          "A: They ignore rules altogether.",
+          "B: They frequently challenge rules and push limits.",
+          "C: They sometimes follow rules but need reminders.",
+          "D: They follow rules and respect boundaries."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child show kindness to others?",
+        "options": [
+          "A: They rarely show kindness or concern for others.",
+          "B: They sometimes struggle to be kind.",
+          "C: They are kind but may need encouragement.",
+          "D: They often help others and show compassion."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      }
+    ],
+    "SocialRelationship": [
+      {
+        "question": "How does your child make new friends?",
+        "options": [
+          "A: They prefer to stay alone and don’t seek friendships.",
+          "B: They feel shy and don’t know how to start a conversation.",
+          "C: They wait for others to come to them.",
+          "D: They approach others and introduce themselves easily."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child maintain friendships?",
+        "options": [
+          "A: They rarely interact with friends.",
+          "B: They have trouble staying connected.",
+          "C: They reach out occasionally but may not follow up.",
+          "D: They keep in touch and make plans regularly."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child handle conflicts with friends?",
+        "options": [
+          "A: They ignore the conflict and act like nothing happened.",
+          "B: They often argue and struggle to find a solution.",
+          "C: They avoid the issue but still want to be friends.",
+          "D: They talk things out and try to resolve the issue."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child respond to invitations to play with others?",
+        "options": [
+          "A: They avoid social interactions and prefer to be alone.",
+          "B: They often decline invitations.",
+          "C: They agree but seem indifferent.",
+          "D: They excitedly accept and look forward to playing."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      }
+    ],
+    "SpeechConveyance": [
+      {
+        "question": "How clearly does your child express their thoughts?",
+        "options": [
+          "A: They have trouble getting their point across.",
+          "B: They mumble or speak too softly.",
+          "C: They express themselves but sometimes struggle with words.",
+          "D: They articulate their ideas clearly and confidently."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child ask for help when needed?",
+        "options": [
+          "A: They become frustrated and refuse to ask for help.",
+          "B: They avoid asking and try to figure it out alone.",
+          "C: They hesitate but eventually ask.",
+          "D: They confidently ask for help when unsure."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child share stories or experiences with others?",
+        "options": [
+          "A: They don’t share stories or experiences with others.",
+          "B: They struggle to share and often get distracted.",
+          "C: They share stories but lack detail.",
+          "D: They tell stories enthusiastically and keep others engaged."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child respond when asked a question?",
+        "options": [
+          "A: They avoid answering or go silent.",
+          "B: They often give short or unclear answers.",
+          "C: They answer but seem unsure.",
+          "D: They answer confidently and provide explanations."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      },
+      {
+        "question": "How does your child engage in conversations with peers?",
+        "options": [
+          "A: They seem uninterested in talking.",
+          "B: They rarely contribute to conversations.",
+          "C: They join in but mainly listen.",
+          "D: They actively participate and ask questions."
+        ],
+        "answer_mapping": { "A": 2, "B": 3, "C": 4, "D": 5 }
+      }
+    ],
+      "ConcentrationLevel": [
+        {
+          "question": "How does your child focus on homework or school projects?",
+          "options": [
+            "A: They focus but need occasional breaks.",
+            "B: They concentrate and complete tasks efficiently.",
+            "C: They avoid homework and find excuses not to do it.",
+            "D: They struggle to concentrate and often get distracted."
+          ],
+          "answer_mapping": { "A": 4, "B": 5, "C": 2, "D": 3 }
+        },
+        {
+          "question": "How does your child behave during lessons in school?",
+          "options": [
+            "A: They listen but may zone out at times.",
+            "B: They are disruptive and do not focus.",
+            "C: They pay attention and participate actively.",
+            "D: They often get distracted by their surroundings."
+          ],
+          "answer_mapping": { "A": 4, "B": 2, "C": 5, "D": 3 }
+        },
+        {
+          "question": "How does your child respond when engaged in a game or activity?",
+          "options": [
+            "A: They focus and enjoy the activity fully.",
+            "B: They frequently lose interest and wander off.",
+            "C: They participate but get distracted occasionally.",
+            "D: They struggle to stay engaged and leave the activity early."
+          ],
+          "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3 }
+        },
+        {
+          "question": "How does your child handle noisy environments?",
+          "options": [
+            "A: They stay focused and block out distractions.",
+            "B: They become overwhelmed and can’t focus at all.",
+            "C: They get easily distracted and can’t concentrate.",
+            "D: They struggle but can manage with effort."
+          ],
+          "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4 }
+        },
+        {
+          "question": "How does your child react when they have multiple tasks to complete?",
+          "options": [
+            "A: They manage their time well and prioritize tasks.",
+            "B: They avoid doing any tasks altogether.",
+            "C: They try to juggle tasks but feel stressed.",
+            "D: They struggle to keep track and feel overwhelmed."
+          ],
+          "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3 }
+        }
+      ],
+      "SelfRegulation": [
+        {
+          "question": "How does your child handle frustration?",
+          "options": [
+            "A: They lose control and throw a tantrum.",
+            "B: They stay calm and try to solve the problem.",
+            "C: They feel frustrated but manage to cope.",
+            "D: They often get upset and express their anger."
+          ],
+          "answer_mapping": { "A": 2, "B": 5, "C": 4, "D": 3 }
+        },
+        {
+          "question": "How does your child respond to disappointing news?",
+          "options": [
+            "A: They accept it and look for alternatives.",
+            "B: They feel sad but eventually move on.",
+            "C: They dwell on it and become upset.",
+            "D: They refuse to accept it and act out."
+          ],
+          "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2 }
+        },
+        {
+          "question": "How does your child react when they need to wait for something?",
+          "options": [
+            "A: They get upset and refuse to wait.",
+            "B: They patiently wait without complaint.",
+            "C: They express anger and frustration.",
+            "D: They fidget or ask how much longer."
+          ],
+          "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+        },
+        {
+          "question": "How does your child behave when they have to follow rules?",
+          "options": [
+            "A: They understand and follow rules without issue.",
+            "B: They resist rules and challenge authority.",
+            "C: They sometimes question the rules but generally follow them.",
+            "D: They ignore rules and do what they want."
+          ],
+          "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3 }
+        },
+        {
+          "question": "How does your child respond to peer pressure?",
+          "options": [
+            "A: They confidently stand their ground and say no.",
+            "B: They give in and do things they shouldn’t.",
+            "C: They feel pressured and often go along with friends.",
+            "D: They hesitate but usually make the right choice."
+          ],
+          "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4 }
+        }
+      ],
+      "StressLevel": [
+        {
+          "question": "How does your child handle stressful situations, like exams?",
+          "options": [
+            "A: They panic and struggle to cope.",
+            "B: They stay calm and prepare well.",
+            "C: They feel a little anxious but manage it.",
+            "D: They become very stressed and have trouble focusing."
+          ],
+          "answer_mapping": { "A": 2, "B": 5, "C": 4, "D": 3 }
+        },
+        {
+          "question": "How does your child react to changes in routine?",
+          "options": [
+            "A: They take a little time to adjust but manage.",
+            "B: They adapt quickly and adjust their plans.",
+            "C: They feel anxious and resist the changes.",
+            "D: They become upset and refuse to change."
+          ],
+          "answer_mapping": { "A": 4, "B": 5, "C": 3, "D": 2 }
+        },
+        {
+          "question": "How does your child respond when faced with multiple tasks?",
+          "options": [
+            "A: They prioritize and handle tasks well.",
+            "B: They freeze and don’t know where to start.",
+            "C: They feel overwhelmed but try to manage.",
+            "D: They struggle to keep up and feel stressed."
+          ],
+          "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3 }
+        },
+        {
+          "question": "How does your child behave when there’s a lot of noise around?",
+          "options": [
+            "A: They find it a bit distracting but cope.",
+            "B: They can focus despite the noise.",
+            "C: They feel overwhelmed and leave the area.",
+            "D: They become annoyed and can’t concentrate."
+          ],
+          "answer_mapping": { "A": 4, "B": 5, "C": 2, "D": 3 }
+        },
+        {
+          "question": "How does your child cope with disappointment?",
+          "options": [
+            "A: They react angrily and refuse to accept it.",
+            "B: They accept it and move forward positively.",
+            "C: They feel sad but bounce back.",
+            "D: They dwell on the disappointment and become upset."
+          ],
+          "answer_mapping": { "A": 2, "B": 5, "C": 4, "D": 3 }
+        }
+      ],    
+        "BodyMind": [
+          {
+            "question": "How does your child perform physical activities or sports?",
+            "options": [
+              "A: They try their best but may struggle.",
+              "B: They excel and participate with enthusiasm.",
+              "C: They avoid physical activities and prefer sitting out.",
+              "D: They have difficulty coordinating movements."
+            ],
+            "answer_mapping": { "A": 4, "B": 5, "C": 3, "D": 2 }
+          },
+          {
+            "question": "How does your child react when trying new physical skills?",
+            "options": [
+              "A: They feel nervous but give it a try.",
+              "B: They are excited and eager to learn.",
+              "C: They hesitate and might refuse to try.",
+              "D: They become frustrated and give up easily."
+            ],
+            "answer_mapping": { "A": 4, "B": 5, "C": 3, "D": 2 }
+          },
+          {
+            "question": "How does your child behave during dance or movement activities?",
+            "options": [
+              "A: They participate but seem shy.",
+              "B: They join in and move confidently.",
+              "C: They are unsure and move hesitantly.",
+              "D: They avoid movement activities altogether."
+            ],
+            "answer_mapping": { "A": 4, "B": 5, "C": 3, "D": 2 }
+          },
+          {
+            "question": "How does your child coordinate their movements while playing?",
+            "options": [
+              "A: They move fluidly and enjoy playing games.",
+              "B: They are somewhat coordinated but stumble occasionally.",
+              "C: They often trip or bump into things.",
+              "D: They have trouble controlling their movements."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2 }
+          }
+        ],
+        "Empathy": [
+          {
+            "question": "How does your child respond when they see someone sad?",
+            "options": [
+              "A: They notice but don’t know how to help.",
+              "B: They laugh or make jokes, not understanding the situation.",
+              "C: They ask if the person is okay and offer comfort.",
+              "D: They ignore it and move on."
+            ],
+            "answer_mapping": { "A": 4, "B": 2, "C": 5, "D": 3 }
+          },
+          {
+            "question": "How does your child react when they hear about someone else's problems?",
+            "options": [
+              "A: They dismiss the issue and say it’s not a big deal.",
+              "B: They express concern and ask questions.",
+              "C: They seem uninterested and change the topic.",
+              "D: They listen but don’t say much."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },
+          {
+            "question": "How does your child comfort a friend who is upset?",
+            "options": [
+              "A: They ignore their friend and do something else.",
+              "B: They offer a hug and listen to their feelings.",
+              "C: They try to cheer them up with jokes.",
+              "D: They feel uncomfortable and don’t know what to do."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 4, "D": 3 }
+          },
+          {
+            "question": "How does your child respond to stories or movies with sad endings?",
+            "options": [
+              "A: They feel a bit sad but move on quickly.",
+              "B: They express sadness and talk about their feelings.",
+              "C: They don’t seem affected by the ending.",
+              "D: They laugh or make light of the situation."
+            ],
+            "answer_mapping": { "A": 4, "B": 5, "C": 3, "D": 2 }
+          },
+          {
+            "question": "How does your child show care for pets or animals?",
+            "options": [
+              "A: They occasionally check in on their pets.",
+              "B: They are rough or careless with animals.",
+              "C: They take time to play with and care for them.",
+              "D: They seem indifferent and rarely interact."
+            ],
+            "answer_mapping": { "A": 4, "B": 2, "C": 5, "D": 3 }
+          }
+        ],
+        "Motivation": [
+          {
+            "question": "How does your child react when faced with a challenging task?",
+            "options": [
+              "A: They hesitate and need encouragement.",
+              "B: They tackle it with enthusiasm and determination.",
+              "C: They give up quickly when things get tough.",
+              "D: They feel nervous but try their best."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 2, "D": 4 }
+          },
+          {
+            "question": "How does your child approach goals or projects?",
+            "options": [
+              "A: They seem unmotivated and lack direction.",
+              "B: They set goals and work hard to achieve them.",
+              "C: They don’t set goals and avoid challenges.",
+              "D: They have some goals but struggle to follow through."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },
+          {
+            "question": "How does your child respond to praise or rewards?",
+            "options": [
+              "A: They seem indifferent to praise or rewards.",
+              "B: They become overly reliant on praise to feel good.",
+              "C: They feel proud and motivated to do more.",
+              "D: They appreciate it but don’t seek it out."
+            ],
+            "answer_mapping": { "A": 3, "B": 2, "C": 5, "D": 4 }
+          },
+          {
+            "question": "How does your child handle setbacks or failures?",
+            "options": [
+              "A: They feel disappointed but eventually move on.",
+              "B: They learn from it and try again.",
+              "C: They dwell on the failure and feel discouraged.",
+              "D: They give up entirely and refuse to try again."
+            ],
+            "answer_mapping": { "A": 4, "B": 5, "C": 3, "D": 2 }
+          },
+          {
+            "question": "How does your child respond to learning new skills?",
+            "options": [
+              "A: They seem reluctant and avoid new challenges.",
+              "B: They are excited and eager to learn.",
+              "C: They don’t care to learn new things.",
+              "D: They feel nervous but want to try."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 2, "D": 4 }
+          }
+        ],
+        "Mindfulness": [
+          {
+            "question": "How does your child react during quiet or reflection time?",
+            "options": [
+              "A: They feel a bit restless but manage.",
+              "B: They embrace the quiet and use the time to relax.",
+              "C: They dislike quiet time and find it boring.",
+              "D: They struggle to sit still and focus."
+            ],
+            "answer_mapping": { "A": 4, "B": 5, "C": 2, "D": 3 }
+          },
+          {
+            "question": "How does your child handle distractions while studying?",
+            "options": [
+              "A: They give in to distractions and can’t concentrate.",
+              "B: They stay focused and manage distractions well.",
+              "C: They easily lose focus and struggle to get back on track.",
+              "D: They sometimes get distracted but refocus quickly."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },
+          {
+            "question": "How does your child practice being present in the moment?",
+            "options": [
+              "A: They often daydream and lose track of the activity.",
+              "B: They can enjoy activities without distraction.",
+              "C: They have difficulty engaging with the present.",
+              "D: They sometimes get lost in their thoughts."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 2, "D": 4 }
+          },
+          {
+            "question": "How does your child respond when they feel overwhelmed?",
+            "options": [
+              "A: They feel overwhelmed but try to cope.",
+              "B: They become frantic and can’t regain control.",
+              "C: They take a moment to breathe and gather themselves.",
+              "D: They panic and struggle to calm down."
+            ],
+            "answer_mapping": { "A": 4, "B": 2, "C": 5, "D": 3 }
+          },
+          {
+            "question": "How does your child engage in activities that require patience?",
+            "options": [
+              "A: They are patient and enjoy the process.",
+              "B: They quickly lose interest and give up.",
+              "C: They often rush and become frustrated.",
+              "D: They take their time and stay focused."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4 }
+          }
+        ],
+        "SelfAwareness": [
+          {
+            "question": "How does your child handle emotions when they are upset?",
+            "options": [
+              "A: They may not recognize their feelings and struggle to calm down.",
+              "B: They express their feelings and find ways to calm down.",
+              "C: They bottle up their emotions and avoid talking about them.",
+              "D: They express frustration but don't know how to manage it."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },
+          {
+            "question": "How aware is your child of their own strengths and weaknesses?",
+            "options": [
+              "A: They are unsure and lack confidence.",
+              "B: They are aware and feel confident in their abilities.",
+              "C: They focus only on weaknesses and often feel insecure.",
+              "D: They don’t think about their strengths or weaknesses."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 2, "D": 4 }
+          },
+          {
+            "question": "How does your child describe their feelings in different situations?",
+            "options": [
+              "A: They struggle to put their feelings into words.",
+              "B: They express their emotions clearly and accurately.",
+              "C: They avoid discussing their feelings.",
+              "D: They are unsure of how they feel in many situations."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 2, "D": 4 }
+          },
+          {
+            "question": "How well does your child understand how others view them?",
+            "options": [
+              "A: They are unaware of how others perceive them.",
+              "B: They are mindful and try to understand others' perspectives.",
+              "C: They don’t care about others’ opinions.",
+              "D: They feel misunderstood but try to explain themselves."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          }
+        ],
+        "Creativity": [
+          {
+            "question": "How does your child approach creative tasks like art or building things?",
+            "options": [
+              "A: They prefer following instructions and copying ideas.",
+              "B: They enjoy experimenting and coming up with their own ideas.",
+              "C: They are hesitant and need encouragement to start.",
+              "D: They avoid creative activities."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 4, "D": 2 }
+          },
+          {
+            "question": "How does your child react when faced with a problem that requires creativity?",
+            "options": [
+              "A: They become frustrated and give up.",
+              "B: They think outside the box and come up with unique solutions.",
+              "C: They stick to familiar solutions and don’t try new ideas.",
+              "D: They follow a step-by-step process and find the solution."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },
+          {
+            "question": "How often does your child engage in imaginative play?",
+            "options": [
+              "A: Rarely, they prefer structured play.",
+              "B: Often, they create their own games and stories.",
+              "C: Sometimes, but they often need guidance.",
+              "D: They prefer activities that don't require imagination."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 4, "D": 3 }
+          },
+          {
+            "question": "How does your child respond when they are given a task with no clear solution?",
+            "options": [
+              "A: They try to think of different ideas to solve it.",
+              "B: They follow the rules and keep to the plan.",
+              "C: They are unsure and need support.",
+              "D: They get stuck and can’t move forward."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2 }
+          }
+        ],
+        "TimeManagement": [
+          {
+            "question": "How does your child manage their time during homework or chores?",
+            "options": [
+              "A: They struggle to stay focused and procrastinate.",
+              "B: They organize tasks and complete them on time.",
+              "C: They need constant reminders to stay on track.",
+              "D: They rush through tasks without paying attention."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },
+          {
+            "question": "How well does your child plan and prioritize tasks?",
+            "options": [
+              "A: They don’t plan ahead and struggle with tasks.",
+              "B: They create a schedule and stick to it.",
+              "C: They often forget tasks or leave them until the last minute.",
+              "D: They are unsure how to prioritize tasks."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },    {
+            "question": "How does your child handle multiple tasks at once?",
+            "options": [
+              "A: They struggle to manage and feel overwhelmed.",
+              "B: They prioritize tasks and work through them one by one.",
+              "C: They try to multitask but often get distracted.",
+              "D: They focus on one task and leave others for later."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },
+          {
+            "question": "How does your child handle changes to their routine?",
+            "options": [
+              "A: They become anxious or upset when things change.",
+              "B: They adapt quickly and adjust to new schedules.",
+              "C: They resist changes and become frustrated.",
+              "D: They need time but eventually adjust."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          },
+          {
+            "question": "How does your child plan their free time?",
+            "options": [
+              "A: They don’t plan and end up wasting time.",
+              "B: They create a plan and stick to it.",
+              "C: They plan but often forget or get sidetracked.",
+              "D: They don’t usually have a plan but enjoy their time."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4 }
+          }
+        ],
+        
+        "Optimism": [
+          {
+              "question": " How does your child react when they face a setback or challenge?",
+              "options": [
+                  "A: They become discouraged and doubt their abilities.",
+                  "B: They believe things will get better and keep trying.",
+                  "C: They feel disappointed but think they can improve next time.",
+                  "D: They believe they will always fail."
+              ],
+              "answer_mapping": {
+                  "A": 3,
+                  "B": 5,
+                  "C": 4,
+                  "D": 2
+              }
+          },
+          {
+              "question": "When your child thinks about their future, how do they feel?",
+              "options": [
+                  "A: They are excited and look forward to new possibilities.",
+                  "B: They feel hopeful but have some concerns.",
+                  "C: They worry about what might go wrong.",
+                  "D: They don’t see a bright future ahead."
+              ],
+              "answer_mapping": {
+                  "A": 5,
+                  "B": 4,
+                  "C": 3,
+                  "D": 2
+              }
+          },
+          {
+              "question": " How does your child respond when others express negative opinions or doubts?",
+              "options": [
+                  "A: They remain positive and try to encourage others.",
+                  "B: They start to believe the negative thoughts themselves.",
+                  "C: They consider the opinions but still feel hopeful.",
+                  "D: They feel defeated by the negativity."
+              ],
+              "answer_mapping": {
+                  "A": 5,
+                  "B": 3,
+                  "C": 4,
+                  "D": 2
 
-}
+              }
+          },
+          {
+              "question": "When your child thinks about their accomplishments, how do they view them?",
+              "options": [
+                  "A: They feel proud and believe they can achieve more.",
+                  "B: They often downplay their achievements.",
+                  "C: They feel like they never do well enough.",
+                  "D: They appreciate their successes but feel there’s more to do."
+              ],
+              "answer_mapping": {
+                  "A": 5,
+                  "B": 2,
+                  "C": 3,
+                  "D": 4
+              }
+          },
+          {
+              "question": "How does your child approach new experiences or challenges?",
+              "options": [
+                  "A: Stay hopeful and keep experimenting.",
+                  "B: They feel a bit anxious but want to try anyway.",
+                  "C: They hesitate and prefer to stick with what they know.",
+                  "D: They look forward to the opportunity to learn something new."
+              ],
+              "answer_mapping": {
+                  "A": 2,
+                  "B": 4,
+                  "C": 3,
+                  "D": 5
+              }
+          }
+      ]
+      }      
