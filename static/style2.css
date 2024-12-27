@@ -17,14 +17,13 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     padding: 40px;
     max-width: 600px;
-    text-align: left; /* Updated to left-align content */
+    text-align: center;
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin-bottom: 20px;
-    color: #7278eb;
-    text-align: center; /* Center align the h1 tag */
+    color: #4e54c8;
 }
 
 .score, .eq-evaluation {
@@ -34,13 +33,13 @@ h1 {
 
 .score span, .eq-evaluation span {
     font-weight: bold;
-    color: #7075de;
+    color: #4e54c8;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 15px;
-    color: #7d82e3;
+    color: #4e54c8;
 }
 
 .recommendation {
@@ -51,7 +50,7 @@ h2 {
 
 .back-button {
     display: inline-block;
-    background: #7e83e1;
+    background: #4e54c8;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -63,5 +62,5 @@ h2 {
 }
 
 .back-button:hover {
-    background: #9d5ce2;
+    background: #6a11cb;
 }

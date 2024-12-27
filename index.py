@@ -155,11 +155,11 @@ class EQAnalyzer:
 
 def load_questions(age_group):
     if 1 <= age_group < 12:
-        filename = 'questions_under_12.json'
+        filename = 'json/questions_under_12.json'
     elif 12 <= age_group <= 17:
-        filename = 'questions_12_17.json'
+        filename = 'json/questions_12_17.json'
     elif age_group >= 18:
-        filename = 'questions_above_18.json'
+        filename = 'json/questions_above_18.json'
     else:
         return None 
 
@@ -222,11 +222,11 @@ def questions():
 
 def load_recommendations_file(age):
     if 1 <= age <= 12:
-        file_name = "rec_under12.json"
+        file_name = "json/rec_under12.json"
     elif 13 <= age <= 17:
-        file_name = "rec_12_17.json"
+        file_name = "json/rec_12_17.json"
     elif age >= 18:
-        file_name = "rec_above18.json"
+        file_name = "json/rec_above18.json"
     else:
         return None
     
@@ -238,6 +238,8 @@ def load_recommendations_file(age):
         return None
 
 # Function to generate recommendations
+with open('json/general.json', 'r') as file:
+    fallback_recommendations = json.load(file) 
 def generate_recommendations(age, score, parameter_scores):
     recommendations_data = load_recommendations_file(age)
     if not recommendations_data:
@@ -246,6 +248,15 @@ def generate_recommendations(age, score, parameter_scores):
 
     # Determine score category
     if 1 <= age <= 12:
+        if score < 40:
+            score_category = "Emerging"
+        elif 40 <= score <= 60:
+            score_category = "Balanced"
+        elif 60 < score <= 80:
+            score_category = "Impressive"
+        else:
+            score_category = "Outstanding"
+    elif 13 <= age <= 17:
         if score < 50:
             score_category = "Emerging"
         elif 50 <= score <= 70:
@@ -254,33 +265,24 @@ def generate_recommendations(age, score, parameter_scores):
             score_category = "Impressive"
         else:
             score_category = "Outstanding"
-    elif 13 <= age <= 17:
-        if score < 70:
-            score_category = "Emerging"
-        elif 70 <= score <= 80:
-            score_category = "Balanced"
-        elif 80 < score <= 90:
-            score_category = "Impressive"
-        else:
-            score_category = "Outstanding"
     elif age >= 18:
-        if score < 80:
+        if score < 60:
             score_category = "Emerging"
-        elif 80 <= score <= 90:
+        elif 60 <= score <= 75:
             score_category = "Balanced"
-        elif 90 < score <= 100:
+        elif 75 < score <= 90:
             score_category = "Impressive"
         else:
             score_category = "Outstanding"
     recommendations =[]
     if score_category in recommendations_data: 
+        low_score_found = False
         for parameter, param_score in parameter_scores.items(): 
             if param_score < 3 and parameter in recommendations_data[score_category]: 
                 recommendations.append(random.choice(recommendations_data[score_category][parameter]))
-    else: # Log missing key information for debugging 
-        print(f"Missing key '{score_category}' in recommendations data.") 
-        print(f"Available keys: {list(recommendations_data.keys())}") 
-        recommendations.append("Practice mindfulness to enhance focus.") 
+                low_score_found = True
+        if not low_score_found:
+            recommendations.append(random.choice(fallback_recommendations.get("General")))
         
     return recommendations
 def evaluate_eq(age, score):

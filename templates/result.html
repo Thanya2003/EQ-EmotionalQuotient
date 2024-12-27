@@ -19,9 +19,11 @@
         <!-- Display Recommendations -->
         <h2>Personalized Recommendations:</h2>
         <div class="recommendation">
+            <p>
             {% for recommendation in recommendations %}
-                <p>{{ recommendation }}</p>
+                {{ recommendation }}
             {% endfor %}
+            </p>
         </div>
 
         <!-- Back Button -->
