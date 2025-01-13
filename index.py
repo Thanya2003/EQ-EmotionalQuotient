@@ -229,12 +229,16 @@ def load_recommendations_file(age):
         file_name = "json/rec_above18.json"
     else:
         return None
-    
+
     try:
-        with open(file_name, 'r') as file:
+        # Open the file with the correct encoding
+        with open(file_name, 'r', encoding='utf-8') as file:
             return json.load(file)
     except FileNotFoundError:
         print(f"Error: {file_name} not found.")
+        return None
+    except UnicodeDecodeError as e:
+        print(f"Error decoding {file_name}: {e}")
         return None
 
 # Function to generate recommendations

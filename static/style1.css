@@ -12,12 +12,14 @@ body {
 }
 
 .container {
+    width: 90%;
     background: white;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     padding: 40px;
     max-width: 600px; /* Increased the max-width */
     text-align: center;
+    margin: 0 auto;
 }
 
 h1 {
@@ -81,7 +83,11 @@ label.option {
 label.option:hover {
     background: #e0e0e0;
 }
-
+.question-block .options { 
+    font-size: 16px; /* Increase font size for better readability */ 
+    line-height: 1.5; /* Increase line height for better spacing */ 
+    word-wrap: break-word;
+}
 input[type="radio"] {
     margin-right: 10px;
     width: 20px;
