@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EQfiy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background: linear-gradient(to right, #730260, #010f7a);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .site-name {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #fff, #f0f0f0);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(255,255,255,0.3);
+            animation: glow 2s ease-in-out infinite alternate,
+                       slideIn 1s ease-out forwards,
+                       shimmer 3s infinite;
+            z-index: 2;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px rgba(255,255,255,0.3);
+            }
+            to {
+                text-shadow: 0 0 20px rgba(255,255,255,0.7),
+                           0 0 30px rgba(255,255,255,0.5),
+                           0 0 40px rgba(223, 118, 233, 0.789);
+            }
+        }
+        @keyframes slideIn {
+            0% {
+                transform: translateX(-100px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes shimmer {
+            0% {
+                background-position: -100% 0;
+            }
+            100% {
+                background-position: 200% 0;
+            }
+        }
+        .imgsec {
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 640px;
+            height: 640px;
+            border-radius: 50%;
+            overflow: hidden;
+            z-index: 1;
+            animation: slideIn 1s ease-out;
+        }
+        
+        .cover1 {
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            background: rgb(250, 249, 250);
+            width: 675px;
+            height: 675px;
+            border-radius: 50%;
+            overflow: hidden;
+            z-index: 1;
+            animation: rotate 30s linear infinite;
+        }
+        
+        .imgsec img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 1;
+            animation: fadeIn 1.5s ease-in;
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            padding-left: 5%;
+            max-width: 50%;
+            position: relative;
+            z-index: 2;
+        }
+        .welcome {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: justify;
+            opacity: 0;
+            animation: fadeIn 2s 0.5s forwards;
+        }
+        .content {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            text-align: justify;
+            opacity: 0;
+            animation: fadeIn 2s 1s forwards;
+            line-height: 1.6;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .explore-btn {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+            background: white;
+            color: #45035d;
+            border-radius: 5px;
+            transition: transform 0.3s, background-color 0.3s, color 0.3s;
+            opacity: 0;
+            animation: fadeIn 2s 1.5s forwards;
+
+        }
+        
+        .explore-btn:hover {
+            transform: scale(1.1);
+            background-color: #44025c;
+            color: white;
+        }
+        .waves {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 20vh;
+            margin-bottom: 0;
+            min-height: 150px;
+            max-height: 200px;
+        }
+        .parallax > use {
+            animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+        }
+        .parallax > use:nth-child(1) {
+            fill: rgba(255, 255, 255, 0.3);
+            animation-delay: -2s;
+            animation-duration: 7s;
+            transform: translateY(-5px);
+        }
+        .parallax > use:nth-child(2) {
+            fill: rgba(221, 134, 240, 0.5);
+            animation-delay: -3s;
+            animation-duration: 10s;
+            transform: translateY(-10px);
+        }
+        .parallax > use:nth-child(3) {
+            fill: rgba(243, 196, 238, 0.862);
+            animation-delay: -4s;
+            animation-duration: 13s;
+            transform: translateY(-15px);
+        }
+        @keyframes move-forever {
+            0% { transform: translate3d(-90px,0,0); }
+            100% { transform: translate3d(85px,0,0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="site-name">EQfiy</div>
+    <div class="cover1"></div>
+    <div class="cover2"></div>
+    <div class="imgsec">
+        <img src="../static/Templates.jpg">
+    </div>
+    <div class="content-wrapper">
+    <div class="welcome">Welcome to EQfiy</div>
+    <div class="content">Emotional Quotient (EQ), also known as emotional intelligence, is the ability to understand, use, and manage our emotions effectively in interactions with others.
+        EQ plays a crucial role in our personal and professional lives. It affects our relationships, our decision-making, our stress management, and our overall well-being.
+    </div>
+    <a href="index">
+        <button class="explore-btn">Explore your EQ-Score</button>
+    </a>
+    </div>
+    
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0"></use>
+            <use xlink:href="#gentle-wave" x="48" y="3"></use>
+            <use xlink:href="#gentle-wave" x="48" y="5"></use>
+        </g>
+    </svg>
+</body>
+</html>

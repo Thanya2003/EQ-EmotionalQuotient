@@ -5,14 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emotional Intelligence Assessment Form</title>
     <link rel="stylesheet" href="static/style.css">
+    <script>
+        // Function to enable or disable the button based on input field value
+        function toggleButton() {
+            const ageInput = document.getElementById("age");
+            const submitButton = document.querySelector("button[type='submit']");
+            
+            // Enable button if age input is not empty
+            if (ageInput.value.trim() !== "") {
+                submitButton.disabled = false;
+            } else {
+                submitButton.disabled = true;
+            }
+        }
+
+        // Event listener for input field to call toggleButton when user types
+        window.onload = function() {
+            const ageInput = document.getElementById("age");
+            ageInput.addEventListener("input", toggleButton);
+            toggleButton(); // Call on load to set initial state of the button
+        };
+    </script>
 </head>
 <body>
+    <div class="title">EQfiy</div>
+    <div class="card">
+        <div class="card-IMG">
+        <p class="small">Let's Play Together</p>
+        <p class="big">JOIN THE FUN!</p>
+        <img src="../static/age1.jpg" alt="EQ Image">
+    </div>
+    </div>
     <div class="container">
-    <h1>Emotional Intelligence Assessment Form</h1>
-    <form method="POST" action="/questions">
-        <input type="text" id="age" name="age" placeholder="Enter the age"><br><br>
-        <button type="submit">Next</button>
-    </form>
+        <h1>Emotional Intelligence</h1>
+        <form method="POST" action="/questions">
+            <h3>Can You specify your age below</h3>
+            <input type="text" id="age" name="age"><br><br>
+            <button type="submit" disabled>Next</button>
+        </form>
     </div>
 </body>
 </html>

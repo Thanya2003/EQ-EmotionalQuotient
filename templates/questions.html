@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EQ Questions</title>
     <link rel="stylesheet" href="static/style1.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script>
         let currentQuestion = 0;
 
@@ -13,8 +14,11 @@
             questions.forEach((question, i) => {
                 question.style.display = (i === index) ? 'block' : 'none';
             });
+
+            document.getElementById('previousButton').style.display = (index === 0) ? 'none' : 'inline-block';
             document.getElementById('nextButton').style.display = (index === questions.length - 1) ? 'none' : 'inline-block';
             document.getElementById('submitButton').style.display = (index === questions.length - 1) ? 'inline-block' : 'none';
+
             document.getElementById('nextButton').disabled = !isOptionSelected();
             updateProgressBar(index + 1, questions.length);
             hideAlert();
@@ -35,12 +39,20 @@
             }
         }
 
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion(currentQuestion);
+            }
+        }
+
         function updateProgressBar(current, total) {
             const progressBar = document.getElementById('progressBar');
             const progressText = document.getElementById('progressText');
             const progress = (current / total) * 100;
-            progressBar.style.width = `${progress}%`;
-            progressText.innerText = `Question ${current} of ${total}`;
+
+            progressBar.style.height = `${progress}%`;
+            progressText.innerText = `Question ${current}/${total}`;
         }
 
         function enableNextButton() {
@@ -62,44 +74,64 @@
 
         window.onload = function() {
             showQuestion(currentQuestion);
-            document.querySelectorAll('input[type="radio"]').forEach(radio => {
-                radio.addEventListener('change', enableNextButton);
+            document.querySelectorAll('.option-container').forEach(container => {
+                container.addEventListener('click', () => { 
+                    document.querySelectorAll('.option-container').forEach(c => c.classList.remove('selected')); 
+                    container.classList.add('selected'); 
+                    container.querySelector('input[type="radio"]').checked = true; 
+                    enableNextButton(); 
+                });
             });
+            function showNextQuestion() {
+                let questionBlock = document.querySelector(".question-block");
+                questionBlock.classList.remove("blink"); // Reset animation
+                void questionBlock.offsetWidth; // Force reflow to restart animation
+                questionBlock.classList.add("blink");
+            }
         };
     </script>
 </head>
 <body>
     <div class="container">
-        <h1>Emotional Agility Questionnaire</h1>
-        <div class="progress-container">
-            <div class="progress-bar" id="progressBar"></div>
-            <div class="progress-text" id="progressText"></div>
+        <div class="title">EQfiy</div>
+        <div class="image-section">
+            <img src="../static/option.jpg" alt="Image">
+            <div class="button-container">
+                <button type="button" id="previousButton" onclick="previousQuestion()"><i class="fa-solid fa-arrow-left"></i>Last Question</button>
+                <button type="button" id="nextButton" onclick="nextQuestion()">Next Question<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
         </div>
-        <form method="POST" action="/predict">
-            {% for question in questions %}
-            <div class="question-block">
-                <p><strong>{{ question['question']['question'] }}</strong></p>
-                <div class="options">
-                    {% for option in question['question']['options'] %}
-                    <label>
-                        <input 
+        <div class="content-section">
+            <h1>Emotional Agility Questionnaire</h1>
+            <div class="progress-text" id="progressText"></div>
+            <form method="POST" action="/predict">
+                {% for question in questions %}
+                <div class="question-block">
+                    <p><strong>{{ question['question']['question'] }}</strong></p>
+                    <div class="options">
+                        {% for option in question['question']['options'] %}
+                        <div class="option-container">
+                            <input 
                             type="radio" 
                             name="{{ question['parameter'] }}" 
-                            value="{{ question['question'].get('answer_mapping', {}).get(option.split(':')[0], 0) }}"
+                            value="{{ question['question'].get('answer_mapping', {}).get(option.split(':')[0], 0) }}" 
                             required>
-                        {{ option }}
-                    </label><br>
-                    {% endfor %}
+                            <label>
+                            {{ option }} 
+                        </label>
+                        <span><i class="fa-brands fa-slack"></i></span>
+                       </div>
+                       {% endfor %}
+                    </div>
+                    <p class="alertMessage" style="display: none; color: red;">Please select an option before proceeding.</p>
                 </div>
-                <p class="alertMessage" style="display: none; color: red;">Please select an option before proceeding.</p>
-            </div>
-            {% endfor %}
-            
-            <div class="submit-btn">
-                <button type="button" id="nextButton" onclick="nextQuestion()">Next</button>
+                {% endfor %}
                 <button type="submit" id="submitButton" style="display: none;">Submit</button>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 </body>
 </html>

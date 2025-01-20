@@ -202,6 +202,9 @@ def load_model(age_group):
 
 @app.route('/')
 def index():
+    return render_template('front.html')
+@app.route('/index')
+def index_page():
     return render_template('index.html')
 
 @app.route('/questions', methods=['POST'])
