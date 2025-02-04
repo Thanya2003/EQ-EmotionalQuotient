@@ -4,7 +4,7 @@ import random
 import joblib
 import pandas as pd
 from sqlalchemy import create_engine, Column, Integer, Float, DateTime, String, JSON
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 import numpy as np
@@ -19,6 +19,7 @@ class EQAssessment(Base):
     id = Column(Integer, primary_key=True)
     user_id = Column(String(50))
     age = Column(Integer)
+    gender = Column(String(10))
     eq_score = Column(Float)
     EyeContact=Column(Integer, default=0)
     Behaviour=Column(Integer, default=0)
@@ -43,7 +44,7 @@ app = Flask(__name__)
 app.secret_key = 'thanya'
 
 # Database setup
-DATABASE_URI = "mysql+pymysql://Thanya:123Thanya@localhost/eq_assessment_db"
+DATABASE_URI = "mysql+pymysql://root:123Thanya@localhost/eq_assessment_db"
 engine = create_engine(DATABASE_URI)
 Base.metadata.create_all(engine)
 SessionLocal = sessionmaker(bind=engine)
@@ -52,11 +53,12 @@ class EQAnalyzer:
     def __init__(self, db_session):
         self.session = db_session
     
-    def save_assessment(self, user_id, age, eq_score, parameter_scores, recommendations, age_eval):
+    def save_assessment(self, user_id, age, gender, eq_score, parameter_scores, recommendations, age_eval):
         """Save assessment results to database"""
         assessment = EQAssessment(
             user_id=user_id,
             age=age,
+            gender=gender,
             eq_score=eq_score,
             EyeContact=parameter_scores.get("EyeContact", 0),
             Behaviour=parameter_scores.get("Behaviour", 0),
@@ -211,8 +213,10 @@ def index_page():
 def questions():
     try:
         age = int(request.form['age'])
+        gender = request.form.get('gender', 'Not Specified')  # Get gender input
         user_id = request.form.get('user_id', str(random.randint(1000, 9999)))  # Generate random user_id if not provided
         session['age'] = age
+        session['gender'] = gender
         session['user_id'] = user_id
     except ValueError:
         return "Invalid age. Please enter a valid number."
@@ -256,31 +260,31 @@ def generate_recommendations(age, score, parameter_scores):
     # Determine score category
     if 1 <= age <= 12:
         if score < 40:
-            score_category = "Emerging"
+            score_category = "Minimal"
         elif 40 <= score <= 60:
-            score_category = "Balanced"
+            score_category = "Moderate"
         elif 60 < score <= 80:
-            score_category = "Impressive"
+            score_category = "Excellent"
         else:
-            score_category = "Outstanding"
+            score_category = "Advanced"
     elif 13 <= age <= 17:
         if score < 50:
-            score_category = "Emerging"
+            score_category = "Minimal"
         elif 50 <= score <= 70:
-            score_category = "Balanced"
+            score_category = "Moderate"
         elif 70 < score <= 85:
-            score_category = "Impressive"
+            score_category = "Excellent"
         else:
-            score_category = "Outstanding"
+            score_category = "Advanced"
     elif age >= 18:
         if score < 60:
-            score_category = "Emerging"
+            score_category = "Minimal"
         elif 60 <= score <= 75:
-            score_category = "Balanced"
+            score_category = "Moderate"
         elif 75 < score <= 90:
-            score_category = "Impressive"
+            score_category = "Excellent"
         else:
-            score_category = "Outstanding"
+            score_category = "Advanced"
     recommendations =[]
     if score_category in recommendations_data: 
         low_score_found = False
@@ -295,31 +299,31 @@ def generate_recommendations(age, score, parameter_scores):
 def evaluate_eq(age, score):
     if 1 <= age <= 12:
         if score < 50:
-            return "Emerging EQ"
+            return "Minimal EQ"
         elif 50 <= score <= 70:
-            return "Balanced EQ"
+            return "Moderate EQ"
         elif 70 < score <= 85:
-            return "Impressive EQ"
+            return "Excellent EQ"
         else:
-            return "Outstanding EQ"
+            return "Advanced EQ"
     elif 13 <= age <= 17:
         if score < 60:
-            return "Emerging EQ"
+            return "Minimal EQ"
         elif 60 <= score <= 80:
-            return "Balanced EQ"
+            return "Moderate EQ"
         elif 80 < score <= 90:
-            return "Impressive EQ"
+            return "Excellent EQ"
         else:
-            return "Outstanding EQ"
+            return "Advanced EQ"
     elif age >= 18:
         if score < 70:
-            return "Emerging EQ"
+            return "Minimal EQ"
         elif 70 <= score <= 85:
-            return "Balanced EQ"
+            return "Moderate EQ"
         elif 90 < score <= 95:
-            return "Impressive EQ"
+            return "Excellent EQ"
         else:
-            return "Outstanding EQ"
+            return "Advanced EQ"
     return "Invalid age group."
 
 # Route for EQ prediction
@@ -331,8 +335,9 @@ def predict():
     try:
         user_id = session.get('user_id')
         age = session.get('age')
+        gender = session.get('gender')
         
-        if not age or not user_id:
+        if not age or not user_id or not gender:
             return "Session expired. Please start again."
 
         # Process form data into parameter scores
@@ -363,6 +368,7 @@ def predict():
         analyzer.save_assessment(
             user_id=user_id,
             age=age,
+            gender=gender,
             age_eval=age_eval,
             eq_score=predicted_score,
             parameter_scores=parameter_scores,
@@ -379,6 +385,7 @@ def predict():
             score=predicted_score,
             age_eval=age_eval,
             age=age,
+            gender=gender,
             recommendations=general_recommendations,
             progress=progress,
             improvement_areas=improvement_areas

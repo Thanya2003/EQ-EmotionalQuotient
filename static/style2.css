@@ -203,8 +203,9 @@ h1::after {
 .eq-evaluation {
     font-size: 1.5em;
     color: white;
+    margin-bottom: 0px ;
     opacity: 0;
-    margin-left: 440px;
+    margin-left: 350px;
     /* text-align: center; */
     animation: fadeUp 0.5s ease forwards;
     animation-delay: 0.5s;

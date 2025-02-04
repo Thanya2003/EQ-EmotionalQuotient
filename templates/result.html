@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EQ Prediction Result - Emoji Rating</title>
+    <title>EQ Prediction Result</title>
     <link rel="stylesheet" href="/static/style2.css">
 </head>
 <body>
@@ -34,7 +34,8 @@
             </div>
             
             <!-- Display EQ Classification -->
-            <p class="eq-evaluation"> <span>{{ age_eval }}</span></p>
+            <p class="eq-evaluation"><strong>Your Age:</strong> {{ age }} => <span>{{ age_eval }}</span></p>
+            
             
             <!-- Display Recommendations -->
             <h2>Personalized Recommendations:</h2>

@@ -1,5 +1,5 @@
 {
-  "Emerging": {
+  "Minimal": {
     "EyeContact": [
       "Play games like “I Spy” to make eye contact fun.",
       "Practice eye contact during storytime or mealtime conversations.",
@@ -181,7 +181,7 @@
       "Recognize their ability to inspire positivity in others."
     ]
   },
-  "Balanced": {
+  "Moderate": {
     "EyeContact": [
       "Encourage making eye contact during longer conversations or storytelling.",
       "Introduce activities like acting or public speaking to enhance confidence.",
@@ -393,7 +393,7 @@
       "Praise their ability to bounce back from setbacks with optimism."
     ]
   },
-  "Impressive": {
+  "Excellent": {
     "EyeContact": [
       "Encourage leading small group discussions or storytelling activities.",
       "Promote participation in debates or presentations at school or clubs.",
@@ -645,7 +645,7 @@
       "Guide them in finding new perspectives that promote optimism in their lives."
     ]
   },
-  "Outstanding": {
+  "Advanced": {
     "EyeContact": [
       "Encourage mentoring peers on effective communication techniques.",
       "Promote hosting or moderating events at school or in the community.",

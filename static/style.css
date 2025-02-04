@@ -9,6 +9,34 @@ body {
     background-color: #f0f0f0;
     animation: fadeIn 1s ease-in-out;
 }
+/* Display the label and select inline */
+label, select {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+/* Add a little styling to the select box */
+select {
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Hover effect on the select box */
+select:hover {
+    color: #1b0101;
+    border-color: #32010b;
+}
+
+/* Optional: Add focus style for accessibility */
+select:focus {
+    outline: none;
+    color: #1b0101;
+    border-color: #32010b;
+}
 
 /* Animated Container */
 .container { 

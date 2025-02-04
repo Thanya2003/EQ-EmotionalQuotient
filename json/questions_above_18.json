@@ -54,7 +54,117 @@
                 "E: Feel put off and move on to someone else."
             ],
             "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2}
-        }
+        },
+        {
+            "question": "You’re speaking to a friend about an important topic, and they keep looking around the room. How do you feel?",
+            "options": [
+              "A: I feel they’re not giving me enough attention.",
+              "B: I feel it’s okay; maybe they’re just distracted.",
+              "C: I feel like they don’t trust me.",
+              "D: I feel comfortable continuing the conversation.",
+              "E: I feel a little hurt, but I don’t say anything."
+            ],
+            "answer_mapping": { "A": 4, "B": 5, "C": 2, "D": 3, "E": 1 }
+          },
+          {
+            "question": "During a meeting, a colleague consistently avoids eye contact with you. How do you interpret it?",
+            "options": [
+              "A: They might be shy and unsure.",
+              "B: They could be hiding something or uncomfortable.",
+              "C: It’s nothing; they’re probably distracted.",
+              "D: It makes me feel ignored or disrespected.",
+              "E: It’s a sign they’re not engaged in the meeting."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+          },
+          {
+            "question": "You’re explaining something to a group, and some people avoid making eye contact. What do you think?",
+            "options": [
+              "A: I might try to engage them with questions.",
+              "B: It makes me wonder if they’re not interested.",
+              "C: I assume they’re distracted and don’t take it personally.",
+              "D: I feel awkward and lose my train of thought.",
+              "E: I immediately wrap up the conversation."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "You’re in a job interview, and the interviewer avoids eye contact. How do you handle it?",
+            "options": [
+              "A: I assume they’re not interested in my answers.",
+              "B: I try to make more eye contact to show confidence.",
+              "C: I feel uncomfortable but continue speaking.",
+              "D: I feel disrespected but don’t say anything.",
+              "E: I focus more on the content of my answers."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 2, "D": 1, "E": 4 }
+          },
+          {
+            "question": "While having a disagreement with a close friend, they avoid making eye contact. How do you react?",
+            "options": [
+              "A: I feel that it’s a sign of dishonesty.",
+              "B: I try to encourage them to open up and be honest.",
+              "C: I get frustrated and withdraw from the conversation.",
+              "D: I feel they are avoiding conflict and back off.",
+              "E: I address the issue directly and ask why they’re avoiding eye contact."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 4, "E": 1 }
+          },
+          {
+            "question": "During a social gathering, someone constantly looks away while talking to you. What do you think?",
+            "options": [
+              "A: I think they are not interested in the conversation.",
+              "B: I assume they’re shy and I don’t mind.",
+              "C: I get annoyed and move on to someone else.",
+              "D: I wonder if something is bothering them.",
+              "E: I try to maintain a positive attitude and keep talking."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "While giving a presentation, the audience looks down often instead of at you. How does it affect you?",
+            "options": [
+              "A: I feel discouraged and doubt my presentation.",
+              "B: I try not to let it affect me and continue.",
+              "C: I assume they’re taking notes and feel comfortable.",
+              "D: I start to question if my content is engaging enough.",
+              "E: I feel disconnected and want to end the presentation early."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "You’re having a one-on-one conversation with a colleague, and they avoid eye contact. What do you do?",
+            "options": [
+              "A: I feel uncomfortable and try to avoid them.",
+              "B: I assume they’re thinking or distracted.",
+              "C: I continue talking to see if they engage later.",
+              "D: I feel they’re not trusting me and withdraw.",
+              "E: I address it directly and ask if something is wrong."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "In a debate, a participant avoids eye contact with you while presenting their argument. How does it affect the discussion?",
+            "options": [
+              "A: I think it makes their argument less credible.",
+              "B: I assume they are just nervous and continue.",
+              "C: It makes me feel they are trying to avoid confrontation.",
+              "D: I focus on the content and don’t let it distract me.",
+              "E: I get frustrated and challenge them on it."
+            ],
+            "answer_mapping": { "A": 2, "B": 5, "C": 4, "D": 3, "E": 1 }
+          },
+          {
+            "question": "During a family gathering, someone avoids eye contact when you're telling a funny story. How do you feel?",
+            "options": [
+              "A: I feel embarrassed and stop telling the story.",
+              "B: I assume they are just distracted and keep talking.",
+              "C: I get upset and feel they don’t enjoy my stories.",
+              "D: I focus on the others who are engaged in the conversation.",
+              "E: I continue as if nothing happened, unaffected."
+            ],
+            "answer_mapping": { "A": 3, "B": 5, "C": 2, "D": 4, "E": 1 }
+          }
     ],
     "Behaviour": [
         {
@@ -111,7 +221,117 @@
                 "E: Laugh it off to avoid confrontation."
             ],
             "answer_mapping": { "A": 1, "B": 4, "C": 3, "D": 2, "E": 5}
-        }
+        },
+        {
+            "question": "A colleague frequently interrupts you during meetings. How do you handle it?",
+            "options": [
+              "A: Politely ask them to let me finish before speaking.",
+              "B: Ignore the interruptions and continue speaking.",
+              "C: Confront them immediately about their behavior.",
+              "D: Let them speak but feel frustrated silently.",
+              "E: Stop speaking and leave the meeting."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+          },
+          {
+            "question": "Your friend cancels plans at the last minute. How do you respond?",
+            "options": [
+              "A: Understand they might have a valid reason.",
+              "B: Feel disappointed but accept it without complaining.",
+              "C: Get angry and express my frustration.",
+              "D: Cancel plans with them in the future.",
+              "E: Ignore it and make new plans with someone else."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+          },
+          {
+            "question": "A customer service representative is rude to you. How do you react?",
+            "options": [
+              "A: Stay calm and politely ask for a resolution.",
+              "B: Get upset but remain quiet.",
+              "C: Argue back to defend myself.",
+              "D: Ask to speak with a manager.",
+              "E: End the conversation without resolving the issue."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+          },
+          {
+            "question": "You receive a constructive criticism email from your boss. How do you feel?",
+            "options": [
+              "A: Take it positively and think of ways to improve.",
+              "B: Feel hurt but try not to show it.",
+              "C: Immediately disagree and defend myself.",
+              "D: Ignore the feedback and continue working.",
+              "E: Feel discouraged and consider quitting."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+          },
+          {
+            "question": "You find out a close friend has been gossiping about you. How do you handle it?",
+            "options": [
+              "A: Confront them directly and express my feelings.",
+              "B: Cut off the friendship without any explanation.",
+              "C: Ignore it and continue being friends.",
+              "D: Keep quiet and talk about it with other friends.",
+              "E: Ask them about it, but brush it off as no big deal."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2 }
+          },
+          {
+            "question": "A stranger makes an uncomfortable comment to you on the street. How do you react?",
+            "options": [
+              "A: Politely ignore them and keep walking.",
+              "B: Get angry and respond harshly.",
+              "C: Try to engage in a conversation to understand their intention.",
+              "D: Report the incident to the authorities.",
+              "E: Laugh it off and continue my day."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+          },
+          {
+            "question": "During a team project, one member is not contributing. How do you address it?",
+            "options": [
+              "A: Talk to them privately and offer support.",
+              "B: Ignore it and complete the work alone.",
+              "C: Confront them in front of the team to address the issue.",
+              "D: Assign them small tasks and monitor their progress.",
+              "E: Complain to the manager about their lack of effort."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+          },
+          {
+            "question": "A colleague takes credit for your work in front of others. How do you respond?",
+            "options": [
+              "A: Politely point out my contribution without creating a scene.",
+              "B: Keep quiet and feel upset privately.",
+              "C: Confront them openly and demand acknowledgment.",
+              "D: Talk to my supervisor privately about it.",
+              "E: Let it go and focus on the next task."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+          },
+          {
+            "question": "Someone in your team is constantly late for meetings. How do you address it?",
+            "options": [
+              "A: Politely remind them of the importance of punctuality.",
+              "B: Ignore it, as it doesn’t affect my work.",
+              "C: Talk to them privately about how it impacts the team.",
+              "D: Bring it up in front of the team to encourage accountability.",
+              "E: Accept it and continue without addressing it."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "You’re given a task that you think is unfair. How do you respond?",
+            "options": [
+              "A: Politely discuss my concerns with the person who assigned it.",
+              "B: Complain to others about the unfairness.",
+              "C: Accept the task reluctantly and complete it.",
+              "D: Seek advice from a mentor on how to handle the situation.",
+              "E: Refuse to do the task outright."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1 }
+          }
     ],
     "SocialRelationship": [
         {
@@ -168,7 +388,117 @@
                 "E: I ignore the disagreement and change the subject."
             ],
             "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1}
-        }
+        },
+        {
+            "question": "Your friend shares a personal struggle they're going through. How do you respond?",
+            "options": [
+              "A: I actively listen and offer my help if needed.",
+              "B: I try to change the subject to lighten the mood.",
+              "C: I give them advice even if I don’t fully understand the situation.",
+              "D: I listen but avoid offering any advice or feedback.",
+              "E: I empathize briefly but don't engage deeply."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1 }
+          },
+          {
+            "question": "You’re at a party and a guest starts talking about a topic you have little interest in. How do you react?",
+            "options": [
+              "A: I engage in the conversation and show interest, even if I’m not interested.",
+              "B: I listen politely and wait for the conversation to end.",
+              "C: I change the topic to something I’m more interested in.",
+              "D: I nod along but don’t really pay attention.",
+              "E: I excuse myself and leave the conversation."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "A friend is sharing a big success, but you’re feeling a bit envious. How do you respond?",
+            "options": [
+              "A: I congratulate them sincerely and share in their joy.",
+              "B: I stay quiet but put on a fake smile.",
+              "C: I mention something I’ve accomplished to shift the focus.",
+              "D: I try to downplay their success to feel better.",
+              "E: I avoid talking to them and withdraw."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "During a group discussion, a friend continuously interrupts others. How do you handle it?",
+            "options": [
+              "A: I politely ask them to give others a chance to speak.",
+              "B: I remain quiet and let it happen.",
+              "C: I address the issue openly with the group.",
+              "D: I give up on contributing to the conversation.",
+              "E: I talk louder to make my point."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "Your colleague is venting about work stress. How do you respond?",
+            "options": [
+              "A: I listen attentively and offer help or suggestions.",
+              "B: I sympathize but don’t offer any solutions.",
+              "C: I tell them to just get over it and move on.",
+              "D: I change the subject to something more positive.",
+              "E: I brush it off, thinking it’s not my problem."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+          },
+          {
+            "question": "At a family gathering, someone brings up a sensitive topic you prefer to avoid. How do you respond?",
+            "options": [
+              "A: I politely steer the conversation to a different topic.",
+              "B: I engage in the discussion but stay neutral.",
+              "C: I excuse myself from the conversation.",
+              "D: I contribute my opinion on the matter despite my discomfort.",
+              "E: I stay silent and let others speak."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+          },
+          {
+            "question": "A friend asks for a favor, but you’re not comfortable helping. How do you respond?",
+            "options": [
+              "A: I politely explain my reasons and suggest alternative help.",
+              "B: I say yes reluctantly, even though I don’t want to.",
+              "C: I avoid answering them and hope they get the hint.",
+              "D: I tell them I can’t help but don’t give any explanation.",
+              "E: I agree to help but secretly feel resentful."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+          },
+          {
+            "question": "Your partner is upset and needs space. How do you react?",
+            "options": [
+              "A: I respect their need for space and wait for them to open up.",
+              "B: I try to comfort them even if they don’t want to talk.",
+              "C: I give them space but feel hurt and ignored.",
+              "D: I ask them repeatedly if they’re okay.",
+              "E: I leave them alone and do something else."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+          },
+          {
+            "question": "A friend shares a personal secret with you. How do you handle it?",
+            "options": [
+              "A: I keep the secret safe and offer support.",
+              "B: I promise to keep it secret but tell one other person.",
+              "C: I immediately feel burdened and want to share it.",
+              "D: I forget about it and don’t think about it again.",
+              "E: I share the secret with others to get their opinion."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+          },
+          {
+            "question": "Your best friend is going through a tough time but hasn’t reached out for help. What do you do?",
+            "options": [
+              "A: I reach out to them and offer my help.",
+              "B: I wait for them to ask for help first.",
+              "C: I check in casually, asking if they’re okay.",
+              "D: I try to stay out of it and let them deal with it alone.",
+              "E: I get frustrated and feel like they don’t value our friendship."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+          }
     ],
     "SpeechConveyance": [
         {
@@ -225,7 +555,117 @@
                 "E: I repeat the same explanation in the same way."
             ],
             "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4}
-        }
+        },
+        {
+            "question": "You’re in a meeting, and your point isn’t being understood. How do you proceed?",
+            "options": [
+              "A: I restate my point in a different way to ensure clarity.",
+              "B: I give up and let the conversation move on.",
+              "C: I ask someone else to explain it for me.",
+              "D: I try to explain more quickly to get to the point.",
+              "E: I stop talking and let others take the floor."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 2, "D": 4, "E": 3 }
+          },
+          {
+            "question": "While giving a presentation, a person in the audience is talking on their phone. How do you respond?",
+            "options": [
+              "A: I politely ask them to put the phone away and pay attention.",
+              "B: I ignore it and continue with my presentation.",
+              "C: I make a comment about it to the audience.",
+              "D: I pause and wait for them to stop talking.",
+              "E: I feel distracted but keep going without addressing it."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "Someone makes an offhand comment while you’re explaining something. How do you react?",
+            "options": [
+              "A: I acknowledge the comment and refocus the conversation.",
+              "B: I stop talking and let them take the lead.",
+              "C: I ask them to save their thoughts until I finish.",
+              "D: I continue without addressing their comment.",
+              "E: I engage with their comment and get off track."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+          },
+          {
+            "question": "While explaining a complex idea to a group, someone in the back is not paying attention. How do you handle it?",
+            "options": [
+              "A: I ask them directly if they need clarification.",
+              "B: I continue talking as if nothing is wrong.",
+              "C: I acknowledge the situation and try to engage them.",
+              "D: I point out that they seem distracted to the group.",
+              "E: I ignore it and move on to the next point."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+          },
+          {
+            "question": "You’re explaining a point in a heated discussion, but others keep interrupting. How do you respond?",
+            "options": [
+              "A: I calmly ask for a moment to finish my point.",
+              "B: I ignore the interruptions and continue speaking.",
+              "C: I stop talking and let them have their say.",
+              "D: I raise my voice to assert myself.",
+              "E: I let the conversation continue without contributing."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+          },
+          {
+            "question": "You’ve been asked a question, but you need a moment to gather your thoughts. How do you respond?",
+            "options": [
+              "A: I ask for a moment to think before answering.",
+              "B: I rush into an answer to avoid silence.",
+              "C: I give a vague answer and clarify later.",
+              "D: I tell them I’ll get back to them with a more complete response.",
+              "E: I ignore the need for a thoughtful answer and respond quickly."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+          },
+          {
+            "question": "During a group conversation, you notice that no one is paying attention to the speaker. What do you do?",
+            "options": [
+              "A: I politely remind everyone to focus on the speaker.",
+              "B: I continue talking and ignore the distraction.",
+              "C: I leave the conversation because it feels unproductive.",
+              "D: I address the group and ask for everyone’s attention.",
+              "E: I quietly listen without pointing out the issue."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+          },
+          {
+            "question": "During a meeting, a colleague starts talking over you. How do you handle it?",
+            "options": [
+              "A: I assertively ask them to let me finish my point.",
+              "B: I let them speak and continue when they’re done.",
+              "C: I keep quiet until they finish speaking.",
+              "D: I speak louder to ensure I am heard.",
+              "E: I stop talking altogether and let others continue."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+          },
+          {
+            "question": "You are explaining something to someone, and they seem to misunderstand. How do you react?",
+            "options": [
+              "A: I rephrase my explanation and give examples.",
+              "B: I get frustrated but try again anyway.",
+              "C: I move on, assuming they’ll figure it out.",
+              "D: I ignore the misunderstanding and continue.",
+              "E: I ask them to explain what they understood."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 1, "E": 4 }
+          },
+          {
+            "question": "Someone asks a question that’s off-topic while you’re presenting. How do you handle it?",
+            "options": [
+              "A: I politely redirect the conversation back to the topic.",
+              "B: I answer the question briefly and move on.",
+              "C: I ask if anyone else has a related question.",
+              "D: I address the off-topic question fully, causing a distraction.",
+              "E: I ignore the question and continue my presentation."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+          }
     ],
     "ConcentrationLevel": [
         {
@@ -282,7 +722,117 @@
                 "E: Enjoy it, focusing well with some short breaks."
             ],
             "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4}
-        }
+        },
+        {
+            "question": "You’re reading a book, but your thoughts keep wandering. How do you handle it?",
+            "options": [
+              "A: I refocus my attention and read until I finish the chapter.",
+              "B: I put the book down and do something else.",
+              "C: I keep reading but frequently stop to check my phone.",
+              "D: I take breaks often to stay refreshed and then continue.",
+              "E: I zone out completely and don’t get much reading done."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+          },
+          {
+            "question": "You’re in a meeting at work, but it’s hard to stay engaged. How do you respond?",
+            "options": [
+              "A: I take notes to stay focused and engaged in the discussion.",
+              "B: I check my phone to distract myself from the boredom.",
+              "C: I zone out, only paying attention when my name is mentioned.",
+              "D: I actively participate, asking questions to keep myself engaged.",
+              "E: I feel frustrated but continue to sit through the meeting."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1 }
+          },
+          {
+            "question": "You’re writing an email but keep losing focus. What do you do?",
+            "options": [
+              "A: I take a short break and then return to finish the email.",
+              "B: I write quickly without paying attention to the content.",
+              "C: I get distracted and abandon the email.",
+              "D: I work through the distractions and finish the email carefully.",
+              "E: I ask someone to help me write the email for me."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 1, "D": 4, "E": 2 }
+          },
+          {
+            "question": "You’re working on a report, but your mind keeps drifting. How do you handle it?",
+            "options": [
+              "A: I set small, achievable goals to stay on track and focused.",
+              "B: I push through the distractions and try to finish quickly.",
+              "C: I take frequent breaks to reset my focus.",
+              "D: I try to multitask, switching between different tasks.",
+              "E: I give up and decide to work on it another day."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+          },
+          {
+            "question": "You’re watching a documentary that requires focus, but you’re tired. How do you respond?",
+            "options": [
+              "A: I pause the documentary, take a break, and come back refreshed.",
+              "B: I continue watching but struggle to follow along.",
+              "C: I keep watching but end up missing important parts.",
+              "D: I turn off the documentary and do something else.",
+              "E: I push through my tiredness and try to pay full attention."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 1, "E": 4 }
+          },
+          {
+            "question": "You’re attending an event, but there’s a lot of background noise. How do you stay focused?",
+            "options": [
+              "A: I ignore the noise and stay focused on the event.",
+              "B: I move to a quieter spot to concentrate.",
+              "C: I get distracted and struggle to follow the event.",
+              "D: I ask others to repeat things for me.",
+              "E: I zone out and only focus when something catches my attention."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+          },
+          {
+            "question": "You’re working on an important task, but you keep getting sidetracked by emails. How do you handle it?",
+            "options": [
+              "A: I silence my email notifications and stay focused.",
+              "B: I check each email immediately, getting distracted from my task.",
+              "C: I try to respond to emails quickly while continuing my work.",
+              "D: I focus solely on the task, leaving emails for later.",
+              "E: I give up on the task and decide to deal with emails first."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+          },
+          {
+            "question": "You’re at a coffee shop working, but the noise around you makes it hard to focus. What do you do?",
+            "options": [
+              "A: I put on headphones and block out the noise to focus.",
+              "B: I get distracted by the noise and stop working.",
+              "C: I try to focus, but my attention keeps drifting.",
+              "D: I leave the coffee shop to find a quieter place.",
+              "E: I embrace the noise and continue working, accepting the distractions."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2 }
+          },
+          {
+            "question": "You’re studying for an exam, but it’s hard to concentrate due to stress. How do you handle it?",
+            "options": [
+              "A: I take deep breaths and focus on small tasks to build momentum.",
+              "B: I give up and decide to study later when I feel less stressed.",
+              "C: I force myself to study but struggle to retain information.",
+              "D: I break the study session into smaller, manageable chunks.",
+              "E: I keep thinking about the stress and can’t focus at all."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2 }
+          },
+          {
+            "question": "You’re in a noisy classroom, but you have a task to complete. How do you maintain focus?",
+            "options": [
+              "A: I focus on my task and block out the noise.",
+              "B: I try to ignore the noise, but I get distracted.",
+              "C: I ask to move to a quieter spot.",
+              "D: I focus for a while but give in to distractions.",
+              "E: I give up and decide to leave the classroom."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+          }
     ],
     "SelfRegulation": [
         {
@@ -339,6 +889,116 @@
                 "E: Feel angry and frustrated, honking often."
             ],
             "answer_mapping": { "A": 4, "B": 2, "C": 3, "D": 5, "E": 1}
+        },
+        {
+            "question": "You receive unexpected negative feedback from your manager at work. How do you respond?",
+            "options": [
+                "A: Calmly ask for clarification and feedback on how to improve.",
+                "B: Take the feedback personally and withdraw.",
+                "C: Get upset and argue back immediately.",
+                "D: Apologize even though you don’t fully agree.",
+                "E: Thank them for the feedback and take it as a learning opportunity."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 1, "D": 3, "E": 4 }
+        },
+        {
+            "question": "Your friend forgets your birthday and you feel hurt. What do you do?",
+            "options": [
+                "A: Let them know how you feel, but stay calm.",
+                "B: Ignore it and don’t bring it up, hoping they’ll notice.",
+                "C: Hold a grudge and remind them every chance you get.",
+                "D: Bring it up casually and joke about it.",
+                "E: Confront them angrily for forgetting."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+        },
+        {
+            "question": "During a dinner out with friends, someone makes an inappropriate joke. How do you handle it?",
+            "options": [
+                "A: Politely ask them to stop and express why it's not funny.",
+                "B: Laugh it off even though it made you uncomfortable.",
+                "C: Say something sarcastic to show you're upset.",
+                "D: Ignore it, but feel uncomfortable for the rest of the night.",
+                "E: Confront them in front of everyone and criticize them."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+        },
+        {
+            "question": "You’re working on a group project and someone isn’t pulling their weight. What’s your response?",
+            "options": [
+                "A: Address the issue directly with them in a calm manner.",
+                "B: Take over their work to avoid conflict.",
+                "C: Complain to others about it behind their back.",
+                "D: Let it slide because you don’t want to cause tension.",
+                "E: Get frustrated and make passive-aggressive comments."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You’re asked to present your idea at work but feel nervous. How do you manage the anxiety?",
+            "options": [
+                "A: Take a deep breath, focus, and proceed with confidence.",
+                "B: Avoid the presentation and ask someone else to do it.",
+                "C: Constantly check your notes while speaking.",
+                "D: Talk quickly to get it over with.",
+                "E: Express your nervousness openly to the group."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+        },
+        {
+            "question": "A colleague spreads a rumor about you at work. How do you react?",
+            "options": [
+                "A: Address the issue calmly with the colleague who started it.",
+                "B: Ignore it and focus on your work.",
+                "C: Confront them aggressively in front of others.",
+                "D: Defend yourself with facts but remain composed.",
+                "E: Retaliate by starting a rumor about them."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 1, "D": 3, "E": 2 }
+        },
+        {
+            "question": "You make a mistake in a professional setting that others notice. What do you do?",
+            "options": [
+                "A: Acknowledge the mistake, apologize, and offer a solution.",
+                "B: Deny the mistake and hope no one notices.",
+                "C: Get defensive and explain why it wasn’t your fault.",
+                "D: Stay silent and pretend it didn’t happen.",
+                "E: Over-apologize, making the situation uncomfortable."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 2, "D": 3, "E": 4 }
+        },
+        {
+            "question": "Your partner does something that frustrates you. How do you deal with it?",
+            "options": [
+                "A: Calmly talk about it and try to resolve the issue together.",
+                "B: Let it go and hope it doesn’t happen again.",
+                "C: Become distant and avoid the situation.",
+                "D: Express your frustration immediately and demand change.",
+                "E: Bottle up the frustration and get resentful later."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re in a heated debate and the conversation is getting out of hand. What do you do?",
+            "options": [
+                "A: Suggest taking a break to cool down and revisit the discussion later.",
+                "B: Keep arguing until you’ve won your point.",
+                "C: Agree with the other person just to avoid conflict.",
+                "D: Stay silent and allow the other person to dominate the conversation.",
+                "E: Get more passionate and escalate the argument."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+        },
+        {
+            "question": "You find out that a close friend has been spreading lies about you. How do you handle it?",
+            "options": [
+                "A: Confront them about it calmly and ask for clarification.",
+                "B: Cut off contact without explanation.",
+                "C: Speak to others about it to get their support.",
+                "D: Get upset and confront them aggressively.",
+                "E: Ignore it and try to forget about it."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4 }
         }
     ],
     "StressLevel": [
@@ -396,6 +1056,116 @@
                 "E: Engage in activities that help reduce stress."
             ],
             "answer_mapping": { "A": 2, "B": 5, "C": 3, "D": 1, "E": 4}
+        },
+        {
+            "question": "You are in the middle of a busy workday, and you receive an unexpected call from a family member with an urgent problem. How do you respond?",
+            "options": [
+                "A: Take a deep breath, calmly address the issue, and set boundaries afterward.",
+                "B: Drop everything to focus entirely on the call.",
+                "C: Feel stressed but try to handle the issue quickly while continuing with work.",
+                "D: Ignore the call, prioritizing work.",
+                "E: Tell the family member to handle it on their own, without offering support."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+        },
+        {
+            "question": "You’re feeling overwhelmed at work because of multiple tasks. A colleague offers to help, but you’re unsure if you want to burden them. What do you do?",
+            "options": [
+                "A: Accept their help, knowing it will lighten the load.",
+                "B: Decline the help and continue working alone to avoid feeling like a burden.",
+                "C: Politely accept their help but feel guilty about it.",
+                "D: Hesitate and try to do everything yourself.",
+                "E: Take a break and come back to the tasks later."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4 }
+        },
+        {
+            "question": "You’re experiencing stress due to conflicting commitments between work and personal life. How do you cope?",
+            "options": [
+                "A: Seek help from a colleague to delegate some tasks.",
+                "B: Push through the stress without asking for support.",
+                "C: Create a balanced schedule to accommodate both work and personal time.",
+                "D: Ignore personal commitments and focus solely on work.",
+                "E: Get overwhelmed and avoid dealing with the situation."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You have an important meeting and feel anxious about presenting in front of others. What’s your approach?",
+            "options": [
+                "A: Practice ahead of time to feel more confident.",
+                "B: Try to avoid the meeting altogether by making an excuse.",
+                "C: Do your best but feel nervous throughout the meeting.",
+                "D: Skip the meeting entirely to avoid the stress.",
+                "E: Overprepare and get even more stressed the night before."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+        },
+        {
+            "question": "You’ve received a large unexpected bill that you cannot afford. How do you react?",
+            "options": [
+                "A: Assess your finances calmly and create a plan to manage the situation.",
+                "B: Stress out and panic about the payment.",
+                "C: Ignore the problem, hoping it will resolve itself.",
+                "D: Borrow money to pay the bill immediately, despite the stress it causes.",
+                "E: Express your frustration to others without taking any action."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 2, "D": 4, "E": 3 }
+        },
+        {
+            "question": "You’re planning a vacation but suddenly a work issue demands your attention. How do you handle it?",
+            "options": [
+                "A: Delegate the work to a colleague and enjoy your vacation stress-free.",
+                "B: Feel anxious but continue working, canceling your vacation plans.",
+                "C: Go on vacation but constantly check work emails.",
+                "D: Postpone the vacation and focus on the work issue.",
+                "E: Take a short break and then continue working while stressed."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1 }
+        },
+        {
+            "question": "You’re experiencing pressure from deadlines at work. How do you keep yourself motivated?",
+            "options": [
+                "A: Break tasks into smaller chunks and tackle them one at a time.",
+                "B: Panic and start working at a frantic pace.",
+                "C: Keep thinking about the consequences of missing deadlines, which increases stress.",
+                "D: Ignore the deadlines and take longer breaks.",
+                "E: Focus on completing tasks without worrying too much about the time."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 2, "D": 4, "E": 3 }
+        },
+        {
+            "question": "You’ve been given a challenging project at work, and you feel overwhelmed. How do you deal with it?",
+            "options": [
+                "A: Break the project into manageable steps and approach it systematically.",
+                "B: Ask for help from others but feel guilty about it.",
+                "C: Keep working at a fast pace to get it done, but feel tense.",
+                "D: Postpone dealing with the project until the last minute.",
+                "E: Complain about the project but continue working without making progress."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re dealing with a disagreement with a close friend. How do you manage the stress of the situation?",
+            "options": [
+                "A: Have an open and honest conversation to resolve the issue.",
+                "B: Withdraw and stop talking to them for a while.",
+                "C: Discuss the issue with others, seeking their advice.",
+                "D: Avoid confronting the issue and let the stress linger.",
+                "E: Argue with them until they agree with your perspective."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You’ve received conflicting feedback from two colleagues. How do you handle the stress of the situation?",
+            "options": [
+                "A: Take a step back, evaluate both perspectives, and find a balanced solution.",
+                "B: Feel frustrated and decide to ignore both feedbacks.",
+                "C: Seek further clarification but remain tense about the situation.",
+                "D: Confront the colleagues and demand a clearer explanation.",
+                "E: Get overwhelmed and avoid taking any action."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
         }
     ],
     "BodyMind": [
@@ -453,6 +1223,116 @@
                 "E: Struggle to keep up with both activities."
             ],
             "answer_mapping": { "A": 1, "B": 4, "C": 5, "D": 2, "E": 3}
+        },
+        {
+            "question": "You’re running a marathon, and your legs begin to feel tired. How well do you push through and maintain your pace?",
+            "options": [
+                "A: Push through the fatigue and maintain my pace.",
+                "B: Slow down significantly, struggling to keep going.",
+                "C: Take short breaks but continue at a slower pace.",
+                "D: Focus on my breathing and keep going at a steady pace.",
+                "E: Stop entirely and give up the race."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1 }
+        },
+        {
+            "question": "You’re performing a workout routine that requires both strength and coordination. How well do you follow through?",
+            "options": [
+                "A: Perform the routine with perfect control and power.",
+                "B: Make a few mistakes but continue through the routine.",
+                "C: Struggle to maintain proper form and technique.",
+                "D: Complete the routine but with noticeable mistakes.",
+                "E: Stop mid-routine, unable to complete the exercises."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re trying to learn a new physical skill, like juggling. How well do you focus on improving?",
+            "options": [
+                "A: Practice consistently, quickly improving my skill.",
+                "B: Keep practicing, but progress is slow and inconsistent.",
+                "C: Struggle, making few successful attempts.",
+                "D: Get frustrated and stop practicing for the day.",
+                "E: Completely give up after a few tries."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re following a complex dance routine. How well do you manage to keep up with the choreography?",
+            "options": [
+                "A: Perform the routine flawlessly with full synchronization.",
+                "B: Make a few errors but continue with confidence.",
+                "C: Struggle with the steps but finish the routine.",
+                "D: Feel lost and fail to complete the routine.",
+                "E: Quit the routine halfway through."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re balancing multiple tasks that require both mental and physical effort, such as preparing a meal while making a phone call. How well do you manage?",
+            "options": [
+                "A: Complete both tasks effectively without any mistakes.",
+                "B: Complete both tasks with a few minor mistakes.",
+                "C: Struggle with one of the tasks but manage to finish both.",
+                "D: Feel overwhelmed and cannot manage both tasks.",
+                "E: Abandon one of the tasks to focus on the other."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re attempting a difficult yoga pose that requires balance and flexibility. How well do you stay in position?",
+            "options": [
+                "A: Maintain perfect balance with full control.",
+                "B: Struggle but manage to hold the pose for a few seconds.",
+                "C: Fall out of the pose quickly and try again.",
+                "D: Hold the pose with some difficulty but for a while.",
+                "E: Give up after a few attempts."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You’re trying to stay focused during a long workout session. How well do you keep up your mental focus and physical performance?",
+            "options": [
+                "A: Stay fully focused and complete the workout with great energy.",
+                "B: Lose focus for a few moments but quickly regain it.",
+                "C: Struggle to maintain focus and energy throughout.",
+                "D: Feel distracted and can’t finish the workout.",
+                "E: Quit the workout early because of lack of motivation."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re playing a video game that requires rapid coordination of hand movements and decision-making. How well do you handle the pressure?",
+            "options": [
+                "A: Perform exceptionally well, making quick decisions with precision.",
+                "B: Make a few mistakes but continue playing with focus.",
+                "C: Struggle to keep up with the speed but continue playing.",
+                "D: Get frustrated and make mistakes due to stress.",
+                "E: Stop playing because it’s too overwhelming."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re trying to focus on reading a book while listening to music. How well do you manage to concentrate on the book?",
+            "options": [
+                "A: Focus completely on the book while tuning out the music.",
+                "B: Struggle to concentrate but manage to read a few pages.",
+                "C: Frequently get distracted by the music and have to reread paragraphs.",
+                "D: Find it difficult to stay focused and lose track of what I’m reading.",
+                "E: Give up on reading and focus entirely on the music."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re in a high-pressure situation where you need to multitask effectively. How well do you manage multiple tasks under pressure?",
+            "options": [
+                "A: Complete all tasks with high efficiency and minimal stress.",
+                "B: Juggle tasks but with some stress and occasional mistakes.",
+                "C: Struggle with balancing tasks, but manage to finish.",
+                "D: Feel overwhelmed and unable to complete all tasks.",
+                "E: Abandon some tasks because I can’t handle the pressure."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
         }
     ],
     "Empathy": [
@@ -510,6 +1390,116 @@
                 "E: Avoid getting involved directly."
             ],
             "answer_mapping": { "A": 4, "B": 3, "C": 5, "D": 2, "E": 1}
+        },
+        {
+            "question": "Your friend is going through a tough breakup. How do you respond?",
+            "options": [
+                "A: Comfort them, listen to their feelings, and offer support.",
+                "B: Tell them to move on and look for someone better.",
+                "C: Share your own experiences with breakups to relate.",
+                "D: Offer some practical advice to help them get over it.",
+                "E: Ignore their emotions and focus on the positive aspects of life."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+        },
+        {
+            "question": "Your coworker has been quiet for days and seems withdrawn. How do you approach them?",
+            "options": [
+                "A: Approach them gently and ask if they need someone to talk to.",
+                "B: Wait for them to open up when they’re ready.",
+                "C: Suggest they take a break and relax for a while.",
+                "D: Assume they’re just busy and leave them alone.",
+                "E: Offer them a task to distract them from their thoughts."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 1, "E": 2 }
+        },
+        {
+            "question": "A neighbor is moving and looks stressed about the process. How do you react?",
+            "options": [
+                "A: Offer to help them with packing or moving items.",
+                "B: Acknowledge their stress but leave them to handle it on their own.",
+                "C: Suggest hiring professional movers to relieve some stress.",
+                "D: Tell them it’s normal to feel stressed and they’ll get through it.",
+                "E: Watch from a distance, not getting involved."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+        },
+        {
+            "question": "A family member is feeling unappreciated at work. How do you comfort them?",
+            "options": [
+                "A: Listen to them and validate their feelings.",
+                "B: Tell them to just keep working hard, as recognition will come.",
+                "C: Offer to help them brainstorm ways to approach their manager.",
+                "D: Suggest they take a break and forget about work for a while.",
+                "E: Try to convince them it’s not a big deal and they should let it go."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+        },
+        {
+            "question": "A friend seems anxious before an important presentation. What do you do?",
+            "options": [
+                "A: Calmly reassure them and offer advice on how to prepare.",
+                "B: Tell them not to worry, everything will be fine.",
+                "C: Offer a distraction to take their mind off the anxiety.",
+                "D: Suggest they practice their presentation one more time.",
+                "E: Ignore their feelings and focus on your own tasks."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+        },
+        {
+            "question": "A colleague is being criticized harshly by their manager. How do you respond?",
+            "options": [
+                "A: Support them privately and listen to their side of the story.",
+                "B: Avoid getting involved and let them handle it.",
+                "C: Offer advice on how to handle the criticism constructively.",
+                "D: Tell them to not take it personally and move on.",
+                "E: Criticize the manager’s approach in front of the colleague."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+        },
+        {
+            "question": "You overhear someone talking negatively about a mutual friend. How do you react?",
+            "options": [
+                "A: Stand up for your friend and tell them to stop.",
+                "B: Ignore it and walk away without getting involved.",
+                "C: Defend your friend, but in a calm and respectful manner.",
+                "D: Join in the conversation to agree with them.",
+                "E: Tell your friend what was said, hoping to help."
+            ],
+            "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+        },
+        {
+            "question": "A student is struggling with understanding a difficult concept in class. How do you help?",
+            "options": [
+                "A: Offer to explain the concept in simpler terms and provide examples.",
+                "B: Encourage them to read the textbook and figure it out on their own.",
+                "C: Tell them not to worry, it’ll make sense eventually.",
+                "D: Provide them with additional study materials and resources.",
+                "E: Ignore their struggle, assuming they will figure it out on their own."
+            ],
+            "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1 }
+        },
+        {
+            "question": "You see a friend struggling to balance their personal and work life. How do you respond?",
+            "options": [
+                "A: Offer practical suggestions to help them manage their time better.",
+                "B: Listen to their frustrations and offer emotional support.",
+                "C: Tell them to focus on their work and personal life will fall into place.",
+                "D: Advise them to cut down on their commitments to reduce stress.",
+                "E: Ignore the issue and focus on your own life."
+            ],
+            "answer_mapping": { "A": 4, "B": 5, "C": 2, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You’re volunteering at a shelter and a child is feeling scared and alone. How do you comfort them?",
+            "options": [
+                "A: Sit with them, offer reassurance, and try to make them feel safe.",
+                "B: Distract them with toys or games to keep their mind off the fear.",
+                "C: Tell them everything will be fine and they shouldn’t be scared.",
+                "D: Encourage them to talk about their feelings to help them cope.",
+                "E: Leave them alone, giving them space to calm down."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
         }
     ],
     
@@ -598,6 +1588,116 @@
                     "D": 2,
                     "E": 1
                 }
+            },
+            {
+                "question": "You receive feedback that your work could be improved. How do you respond?",
+                "options": [
+                    "A: Use the feedback to motivate myself to improve.",
+                    "B: Feel demotivated and think it’s not worth the effort.",
+                    "C: Take the feedback but struggle to make improvements.",
+                    "D: Ignore the feedback and continue as I was.",
+                    "E: Get frustrated but try harder to prove them wrong."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4 }
+            },
+            {
+                "question": "You’re assigned a long-term project at work. How do you stay on track?",
+                "options": [
+                    "A: Break it down into manageable tasks and stay focused.",
+                    "B: Lose interest and avoid starting it.",
+                    "C: Work on it sporadically, feeling inconsistent.",
+                    "D: Stay focused but feel stressed about the timeline.",
+                    "E: Start strong but quickly lose motivation and abandon it."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2 }
+            },
+            {
+                "question": "You’re working on a fitness goal, but progress is slower than expected. What do you do?",
+                "options": [
+                    "A: Stay focused, celebrating small improvements along the way.",
+                    "B: Feel frustrated and stop working toward the goal.",
+                    "C: Take a break and then return with renewed energy.",
+                    "D: Get discouraged and reduce the effort I’m putting in.",
+                    "E: Abandon the goal, feeling it’s too hard."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+            },
+            {
+                "question": "You’re taking on a new responsibility at work. How do you feel?",
+                "options": [
+                    "A: Motivated to take on the challenge and prove myself.",
+                    "B: Nervous, but willing to give it a try.",
+                    "C: Unsure of my ability, but I’ll try my best.",
+                    "D: Overwhelmed and wish I hadn’t taken it on.",
+                    "E: Feel disinterested and question why I accepted it."
+                ],
+                "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+            },
+            {
+                "question": "You’ve been working on a project for a while but haven’t seen much progress. How do you handle it?",
+                "options": [
+                    "A: Reflect on my progress and adjust my approach to keep moving forward.",
+                    "B: Become discouraged and stop working on it.",
+                    "C: Push through the frustration but feel less motivated.",
+                    "D: Take a step back and lose interest in the project.",
+                    "E: Feel stuck and start doubting my abilities."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+            },
+            {
+                "question": "You’re working toward a long-term goal but encounter unexpected setbacks. How do you stay motivated?",
+                "options": [
+                    "A: View the setbacks as opportunities to learn and improve.",
+                    "B: Feel defeated and question if I should continue.",
+                    "C: Keep pushing through, even though it feels challenging.",
+                    "D: Give up on the goal, feeling it’s not worth the effort.",
+                    "E: Use the setbacks as a reason to quit and try something easier."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+            },
+            {
+                "question": "You’re working with a team on a big project, but progress is slow. How do you motivate yourself and the team?",
+                "options": [
+                    "A: Encourage the team, set clear goals, and keep everyone focused.",
+                    "B: Get frustrated and feel like giving up.",
+                    "C: Take the lead and push forward despite the slow progress.",
+                    "D: Lose motivation and wait for someone else to take charge.",
+                    "E: Complain to the team about the lack of progress."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+            },
+            {
+                "question": "You’ve just finished a major task. How do you stay motivated for the next one?",
+                "options": [
+                    "A: Celebrate the accomplishment and immediately set new goals.",
+                    "B: Feel exhausted and procrastinate starting the next task.",
+                    "C: Take a break, but get back to work with focus.",
+                    "D: Question if I want to take on more tasks right now.",
+                    "E: Feel uninterested and start working reluctantly."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+            },
+            {
+                "question": "You’re facing a tough exam or assessment. How do you prepare?",
+                "options": [
+                    "A: Stay focused, organize my study schedule, and stick to it.",
+                    "B: Feel overwhelmed and avoid studying.",
+                    "C: Try to cram the night before, feeling stressed.",
+                    "D: Work hard but become discouraged as I struggle.",
+                    "E: Give up, feeling that it’s too difficult to succeed."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4 }
+            },
+            {
+                "question": "You’re learning a new language and progress is slow. How do you stay motivated to continue?",
+                "options": [
+                    "A: Focus on the small wins and celebrate any progress.",
+                    "B: Feel frustrated and think about quitting.",
+                    "C: Try harder, even though it feels like slow progress.",
+                    "D: Start doubting if it’s worth the effort.",
+                    "E: Stop practicing because it’s too difficult."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
             }
         ],
         "SelfAwareness": [
@@ -655,6 +1755,116 @@
                     "E: Ignore the feedback and continue as I was."
                 ],
                 "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1}
+            },
+            {
+                "question": "You’ve had a long day and feel emotionally drained. What do you do?",
+                "options": [
+                    "A: Recognize my emotional state and take time to rest.",
+                    "B: Keep going, ignoring how I feel.",
+                    "C: Feel overwhelmed and ignore my emotions altogether.",
+                    "D: Start to feel irritated but push through the day.",
+                    "E: Ignore my emotional exhaustion and keep working."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 1, "D": 3, "E": 4 }
+            },
+            {
+                "question": "You’re feeling a bit off today. How do you acknowledge your mood?",
+                "options": [
+                    "A: Reflect on my feelings and take steps to address them.",
+                    "B: Ignore my mood and go about my day.",
+                    "C: Focus on work to distract myself from my emotions.",
+                    "D: Let my mood dictate my behavior without understanding why.",
+                    "E: Tell myself it's just a bad day and move on."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4 }
+            },
+            {
+                "question": "You realize you’re getting upset during a conversation. How do you handle it?",
+                "options": [
+                    "A: Acknowledge my emotions and pause to regain control.",
+                    "B: Ignore my frustration and keep talking.",
+                    "C: Get more frustrated and argue my point.",
+                    "D: Withdraw from the conversation, avoiding the conflict.",
+                    "E: Continue talking but let my frustration show."
+                ],
+                "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+            },
+            {
+                "question": "You’ve been working on a project and feel unmotivated. How do you recognize this feeling?",
+                "options": [
+                    "A: Recognize my lack of motivation and identify the cause.",
+                    "B: Ignore it and try to force myself to work.",
+                    "C: Feel frustrated but keep working through it.",
+                    "D: Push through without considering why I feel unmotivated.",
+                    "E: Pretend nothing is wrong and continue working."
+                ],
+                "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+            },
+            {
+                "question": "You’re feeling anxious about a big decision. How do you manage this feeling?",
+                "options": [
+                    "A: Acknowledge my anxiety and take time to reflect before deciding.",
+                    "B: Ignore the anxiety and make a hasty decision.",
+                    "C: Let the anxiety take over and delay making the decision.",
+                    "D: Suppress my anxiety, hoping it goes away on its own.",
+                    "E: Feel anxious but go ahead with the decision without hesitation."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 3, "E": 2 }
+            },
+            {
+                "question": "You’re feeling a bit overwhelmed with multiple responsibilities. How do you recognize and address it?",
+                "options": [
+                    "A: Acknowledge my overwhelm and delegate or prioritize tasks.",
+                    "B: Ignore the overwhelm and try to push through everything.",
+                    "C: Recognize my stress but do nothing about it.",
+                    "D: Get more stressed and let the workload pile up.",
+                    "E: Withdraw from some tasks without thinking about why."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 1, "E": 4 }
+            },
+            {
+                "question": "You’re experiencing a conflict with someone at work. How do you recognize your feelings in this situation?",
+                "options": [
+                    "A: Acknowledge my feelings of frustration and try to resolve the issue calmly.",
+                    "B: Ignore my emotions and focus on winning the argument.",
+                    "C: Feel frustrated but avoid dealing with it.",
+                    "D: Recognize my frustration but still argue my point.",
+                    "E: Let my emotions control my response, making the conflict worse."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+            },
+            {
+                "question": "You’ve just been complimented for your work. How do you react internally?",
+                "options": [
+                    "A: Acknowledge the compliment and feel grateful.",
+                    "B: Brush it off, not taking it seriously.",
+                    "C: Feel uncomfortable but accept it anyway.",
+                    "D: Doubt the compliment and wonder if it’s genuine.",
+                    "E: Disregard it and feel unworthy of the praise."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2 }
+            },
+            {
+                "question": "You’ve been asked to provide feedback to a colleague. How do you recognize your emotions when delivering it?",
+                "options": [
+                    "A: Acknowledge my feelings and provide constructive feedback with empathy.",
+                    "B: Ignore how I feel and provide the feedback without consideration.",
+                    "C: Feel nervous and give the feedback in a rushed way.",
+                    "D: Feel uncomfortable and avoid giving detailed feedback.",
+                    "E: Provide feedback but let my frustration show."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+            },
+            {
+                "question": "You’re feeling burnt out after a hectic period at work. How do you recognize and address it?",
+                "options": [
+                    "A: Acknowledge my burnout and take time to recharge.",
+                    "B: Ignore it and keep pushing through without any rest.",
+                    "C: Feel burnt out but keep working, thinking it will pass.",
+                    "D: Try to ignore the burnout but still feel drained.",
+                    "E: Feel overwhelmed and completely disengage from work."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
             }
         ],
         "Mindfulness": [
@@ -742,6 +1952,116 @@
                     "D": 2,
                     "E": 1
                 }
+            },
+            {
+                "question": "You’re experiencing an emotional conflict with a colleague. How do you manage your emotions during the conversation?",
+                "options": [
+                    "A: Pause, acknowledge my feelings, and respond calmly.",
+                    "B: React impulsively without considering the consequences.",
+                    "C: Suppress my emotions and avoid discussing them.",
+                    "D: Let the conversation go off track without intervening.",
+                    "E: Stay silent, avoiding confrontation altogether."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4 }
+            },
+            {
+                "question": "You’re in the middle of a busy day and have several tasks to complete. How do you stay grounded?",
+                "options": [
+                    "A: Take a moment to breathe and center myself before diving into tasks.",
+                    "B: Rush through tasks without taking a break.",
+                    "C: Focus on multitasking, even if it feels overwhelming.",
+                    "D: Keep pushing through without acknowledging my stress.",
+                    "E: Get lost in one task, losing track of everything else."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+            },
+            {
+                "question": "You’re attending a meeting that’s running over time, and you’re starting to lose focus. What do you do?",
+                "options": [
+                    "A: Practice mindfulness techniques to refocus and stay present.",
+                    "B: Daydream and lose track of the conversation.",
+                    "C: Pretend to pay attention while zoning out.",
+                    "D: Start thinking about what I’ll do after the meeting.",
+                    "E: Interrupt the meeting to address my frustration."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2 }
+            },
+            {
+                "question": "You’ve been stuck in traffic for a while and are starting to get frustrated. How do you handle the situation?",
+                "options": [
+                    "A: Take deep breaths, accept the situation, and stay calm.",
+                    "B: Complain to myself and focus on my frustration.",
+                    "C: Try to pass the time by checking my phone.",
+                    "D: Focus on how much time I’m losing and get more upset.",
+                    "E: Start honking and rushing to find a faster route."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+            },
+            {
+                "question": "You’re feeling distracted while working from home. How do you get back on track?",
+                "options": [
+                    "A: Take a mindful break to clear my head and refocus.",
+                    "B: Push through the distractions and keep working.",
+                    "C: Start a new task, hoping it will get me back on track.",
+                    "D: Let the distractions continue and lose focus on my goals.",
+                    "E: Get frustrated and give up on working for the day."
+                ],
+                "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+            },
+            {
+                "question": "You’re at a social event, and there’s a lot of noise around you. How do you handle the situation?",
+                "options": [
+                    "A: Focus on the conversation, ignoring the background noise.",
+                    "B: Feel distracted by the noise and lose track of the conversation.",
+                    "C: Tune out and start focusing on my own thoughts.",
+                    "D: Get frustrated by the noise and try to leave.",
+                    "E: Block out the noise completely and stay focused on the people around me."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 1, "E": 4 }
+            },
+            {
+                "question": "You’ve been given feedback about your performance at work. How do you process the feedback?",
+                "options": [
+                    "A: Take a moment to reflect on the feedback and use it for growth.",
+                    "B: Feel defensive and focus on justifying my actions.",
+                    "C: Ignore the feedback and keep doing things the same way.",
+                    "D: Feel overwhelmed and let it negatively affect my confidence.",
+                    "E: Accept the feedback but don’t take any action on it."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 1, "D": 3, "E": 4 }
+            },
+            {
+                "question": "You’re feeling overwhelmed by a large workload. How do you stay mindful of your mental and physical well-being?",
+                "options": [
+                    "A: Break down tasks into smaller chunks and prioritize self-care.",
+                    "B: Ignore my well-being and push through the work.",
+                    "C: Take frequent breaks but feel guilty for not working harder.",
+                    "D: Feel overwhelmed and avoid tackling the tasks altogether.",
+                    "E: Ignore how I’m feeling and continue working with stress."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 1, "E": 3 }
+            },
+            {
+                "question": "You’re dealing with an unexpected setback in a project. How do you stay mindful of your emotions?",
+                "options": [
+                    "A: Recognize my emotions and calmly assess the situation.",
+                    "B: React impulsively and let frustration dictate my actions.",
+                    "C: Ignore my emotions and focus solely on fixing the issue.",
+                    "D: Let my emotions take over and feel defeated.",
+                    "E: Acknowledge my frustration but let it fuel my determination."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4 }
+            },
+            {
+                "question": "You’re attending a workshop, but the material feels boring. How do you stay engaged?",
+                "options": [
+                    "A: Focus on the material and find aspects that interest me.",
+                    "B: Let my mind wander and start thinking about other things.",
+                    "C: Tune out completely and ignore what’s being presented.",
+                    "D: Try to make the best of the situation and ask questions.",
+                    "E: Get frustrated with the material and zone out."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 2, "D": 4, "E": 3 }
             }
         ],
        
@@ -800,7 +2120,117 @@
           "E: I have trouble thinking of how to start."
         ],
         "answer_mapping": { "A": 5, "B": 1, "C": 2, "D": 4, "E": 3}
-      }
+      },
+      {
+        "question": "You’re tasked with creating a marketing campaign for a new product. How do you approach it?",
+        "options": [
+            "A: I come up with a unique concept and build on it.",
+            "B: I replicate similar campaigns I’ve seen before.",
+            "C: I don’t feel motivated and struggle to think of anything.",
+            "D: I focus on following traditional methods to ensure success.",
+            "E: I take inspiration from others but add a few changes."
+        ],
+        "answer_mapping": { "A": 5, "B": 3, "C": 1, "D": 4, "E": 2 }
+    },
+    {
+        "question": "You need to prepare a presentation for work. How do you handle it?",
+        "options": [
+            "A: I use creative visuals and think outside the box for an engaging presentation.",
+            "B: I rely on standard templates and don’t put much thought into it.",
+            "C: I follow a strict structure and feel constrained by it.",
+            "D: I struggle to put everything together and feel stuck.",
+            "E: I focus on getting the job done, not worrying too much about creativity."
+        ],
+        "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 1, "E": 4 }
+    },
+    {
+        "question": "You’re cooking a meal, but you have to improvise with the ingredients you have. What’s your approach?",
+        "options": [
+            "A: I experiment with different ingredients and create something new.",
+            "B: I stick to a simple recipe and don’t stray from it.",
+            "C: I feel uncertain and make something basic.",
+            "D: I try to follow the instructions as closely as possible.",
+            "E: I don’t feel like cooking and just throw something together."
+        ],
+        "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+    },
+    {
+        "question": "You’re designing a website. How do you approach the design process?",
+        "options": [
+            "A: I focus on creating a unique, user-centered design.",
+            "B: I use existing templates and make minimal changes.",
+            "C: I feel overwhelmed and struggle to come up with ideas.",
+            "D: I follow best practices without considering uniqueness.",
+            "E: I focus on functionality and ignore creativity."
+        ],
+        "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 4, "E": 1 }
+    },
+    {
+        "question": "You’re brainstorming ideas for a new app. How do you go about it?",
+        "options": [
+            "A: I think of fresh, innovative features and create a unique concept.",
+            "B: I copy features from popular apps and make minor tweaks.",
+            "C: I feel stuck and struggle to come up with anything original.",
+            "D: I follow existing trends to create a safe app idea.",
+            "E: I try to design something similar to what already exists."
+        ],
+        "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+    },
+    {
+        "question": "You’re asked to write a blog post. How do you come up with a topic?",
+        "options": [
+            "A: I think about trending topics and put my unique spin on them.",
+            "B: I write about something I’ve written before to save time.",
+            "C: I can’t think of a topic and just write about anything.",
+            "D: I struggle to find something new to write about.",
+            "E: I take inspiration from others’ content without adding anything new."
+        ],
+        "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+    },
+    {
+        "question": "You’re faced with an unexpected problem at work. How do you solve it?",
+        "options": [
+            "A: I think outside the box and come up with a creative solution.",
+            "B: I follow conventional methods to resolve the issue.",
+            "C: I feel stuck and don’t know how to address the problem.",
+            "D: I address the issue using familiar, tried-and-tested methods.",
+            "E: I ignore the problem, hoping it resolves on its own."
+        ],
+        "answer_mapping": { "A": 5, "B": 3, "C": 1, "D": 4, "E": 2 }
+    },
+    {
+        "question": "You need to come up with a name for a new product. What’s your approach?",
+        "options": [
+            "A: I brainstorm unique, creative names that align with the brand.",
+            "B: I pick a name that’s simple and widely understood.",
+            "C: I feel stuck and can’t think of a good name.",
+            "D: I use a random name generator to make the decision.",
+            "E: I modify an existing name I’ve seen elsewhere."
+        ],
+        "answer_mapping": { "A": 5, "B": 3, "C": 2, "D": 1, "E": 4 }
+    },
+    {
+        "question": "You’re creating an advertisement for a campaign. How do you approach the creative process?",
+        "options": [
+            "A: I come up with a unique concept and add creative flair.",
+            "B: I replicate ideas from successful campaigns.",
+            "C: I struggle to think of something creative and stick with basics.",
+            "D: I follow a formula I’ve used in the past to play it safe.",
+            "E: I rush through it, not focusing on creativity."
+        ],
+        "answer_mapping": { "A": 5, "B": 2, "C": 4, "D": 3, "E": 1 }
+    },
+    {
+        "question": "You’re working on a team project and need to present your ideas. How do you prepare?",
+        "options": [
+            "A: I prepare unique ideas and present them creatively.",
+            "B: I present ideas based on what others have already done.",
+            "C: I feel nervous and stick to safe, familiar ideas.",
+            "D: I rush to get the ideas ready without thinking creatively.",
+            "E: I follow others’ suggestions and don’t present anything new."
+        ],
+        "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+    }
     ],
     "TimeManagement": [
         {
@@ -857,6 +2287,116 @@
                 "E: Stop exercising, feeling I don’t have the time."
             ],
             "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1}
+        },
+        {
+            "question": "You have a large project due at the end of the week, but you have a social event planned for the weekend. How do you manage your time?",
+            "options": [
+                "A: Postpone the social event and focus on the project.",
+                "B: Spend time on the project but take breaks to attend the event.",
+                "C: Rush through the project the day before the deadline.",
+                "D: Attend the event and finish the project later, possibly missing the deadline.",
+                "E: Ignore the project entirely and attend the event, risking a poor outcome."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You have an important meeting in 30 minutes, but your desk is disorganized. How do you handle the situation?",
+            "options": [
+                "A: Take 10 minutes to organize my desk, prioritizing a calm mindset.",
+                "B: Ignore the mess and prepare for the meeting.",
+                "C: Quickly tidy up the desk without focusing on organization.",
+                "D: Leave the desk as it is and focus only on the meeting.",
+                "E: Stress out about the mess and try to organize everything before the meeting."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’ve been asked to complete two urgent tasks at work. How do you manage your time?",
+            "options": [
+                "A: Complete one task first and then focus on the other.",
+                "B: Work on both tasks simultaneously, risking quality.",
+                "C: Focus on the easier task and leave the harder one for later.",
+                "D: Prioritize the most urgent task, ignoring the other.",
+                "E: Feel stressed and struggle to complete either task on time."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re studying for a big exam, but you’re easily distracted. How do you stay on track?",
+            "options": [
+                "A: Create a study schedule with breaks to stay focused.",
+                "B: Study in short bursts whenever I feel like it.",
+                "C: Keep studying without breaks, pushing through distractions.",
+                "D: Try to study but end up getting distracted by other tasks.",
+                "E: Procrastinate and feel overwhelmed by the amount of studying left."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re at work and have multiple tasks to complete. How do you prioritize them?",
+            "options": [
+                "A: Create a to-do list and focus on the most important tasks first.",
+                "B: Start with the easiest task to gain momentum.",
+                "C: Work on whichever task catches my attention at the moment.",
+                "D: Do the most enjoyable tasks first, regardless of importance.",
+                "E: Feel overwhelmed and avoid tackling any of the tasks."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You have a tight deadline for a project and several meetings to attend. How do you manage your time effectively?",
+            "options": [
+                "A: Plan my day by allocating specific time slots for both meetings and the project.",
+                "B: Attend meetings but leave the project for later in the day.",
+                "C: Rush through the meetings to focus on the project at the last minute.",
+                "D: Postpone some meetings to prioritize the project.",
+                "E: Skip the project entirely to focus only on the meetings."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 3, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re feeling overwhelmed by your to-do list. What do you do?",
+            "options": [
+                "A: Break the tasks into smaller, manageable parts and prioritize.",
+                "B: Start with a random task, hoping to make progress.",
+                "C: Try to tackle everything at once, feeling stressed.",
+                "D: Ignore the list for a while and deal with it later.",
+                "E: Procrastinate and put off tackling the list entirely."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You’ve got a busy day ahead, and you need to prepare for an important meeting. How do you organize your time?",
+            "options": [
+                "A: Create a clear schedule, allocating time for the meeting preparation and other tasks.",
+                "B: Prepare for the meeting whenever I have a free moment.",
+                "C: Focus on other tasks and leave the meeting preparation for last.",
+                "D: Rush through the preparation last minute before the meeting.",
+                "E: Skip preparation altogether, relying on my existing knowledge."
+            ],
+            "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+        },
+        {
+            "question": "You’re feeling tired, but you have several tasks to complete. What’s your approach?",
+            "options": [
+                "A: Prioritize the most urgent tasks and take breaks as needed.",
+                "B: Try to power through everything, hoping to finish quickly.",
+                "C: Focus only on one task at a time, slowly working through them.",
+                "D: Postpone some tasks to rest and recover before completing the others.",
+                "E: Give up on completing the tasks today and try again tomorrow."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
+        },
+        {
+            "question": "You’re working on a long-term goal, but it feels like progress is slow. How do you manage your time and stay motivated?",
+            "options": [
+                "A: Set smaller milestones to track progress and stay focused.",
+                "B: Push through, hoping to see progress soon.",
+                "C: Take breaks and focus on other tasks to stay motivated.",
+                "D: Feel discouraged and focus on more immediate tasks instead.",
+                "E: Abandon the goal because it’s taking too long to see results."
+            ],
+            "answer_mapping": { "A": 5, "B": 3, "C": 4, "D": 2, "E": 1 }
         }
     ],
     
@@ -945,6 +2485,116 @@
                     "D": 2,
                     "E": 1
                 }
+            },
+            {
+                "question": "You’ve encountered a setback in your career progress. How do you respond?",
+                "options": [
+                    "A: Take it as an opportunity to learn and improve.",
+                    "B: Feel like giving up and consider a career change.",
+                    "C: Focus on the negative aspects and worry about the future.",
+                    "D: Work harder, hoping things will turn around soon.",
+                    "E: Stay hopeful, knowing setbacks are temporary."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 2, "D": 4, "E": 3 }
+            },
+            {
+                "question": "You’re facing a challenge at work and you feel overwhelmed. How do you handle it?",
+                "options": [
+                    "A: Break the challenge down into smaller tasks and stay positive.",
+                    "B: Feel defeated and think it’s impossible to overcome.",
+                    "C: Hope that someone else will solve the problem for you.",
+                    "D: Focus on how difficult it is and ignore potential solutions.",
+                    "E: Stay optimistic, knowing that challenges can lead to growth."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 2, "D": 3, "E": 4 }
+            },
+            {
+                "question": "You’ve set a big goal, but the progress is slower than expected. How do you keep moving forward?",
+                "options": [
+                    "A: Celebrate small wins along the way and stay optimistic.",
+                    "B: Get discouraged and consider giving up.",
+                    "C: Keep pushing, but feel frustrated with the lack of progress.",
+                    "D: Reassess if the goal is really worth pursuing.",
+                    "E: Keep reminding myself that slow progress is still progress."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 2, "E": 4 }
+            },
+            {
+                "question": "You’ve been working hard on a personal project, but the results aren’t what you expected. How do you respond?",
+                "options": [
+                    "A: See the experience as valuable and use it to improve.",
+                    "B: Feel disheartened and question if I’m capable of succeeding.",
+                    "C: Try a different approach while staying hopeful.",
+                    "D: Give up and move on to something else.",
+                    "E: Stay optimistic and focus on the progress made, not the outcome."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+            },
+            {
+                "question": "A colleague suggests an innovative, but risky, idea. How do you react?",
+                "options": [
+                    "A: Encourage them and offer my full support for the idea.",
+                    "B: Worry about the potential consequences and feel hesitant.",
+                    "C: Disagree and suggest sticking to safe approaches.",
+                    "D: Feel excited about the challenge and optimistic about its success.",
+                    "E: Caution them about the risks involved, though I remain supportive."
+                ],
+                "answer_mapping": { "A": 5, "B": 2, "C": 3, "D": 4, "E": 1 }
+            },
+            {
+                "question": "You’ve encountered a major personal challenge. How do you maintain a positive outlook?",
+                "options": [
+                    "A: Stay hopeful and focus on the lessons I can learn from the experience.",
+                    "B: Feel overwhelmed and wonder if things will ever improve.",
+                    "C: Seek support from others but remain uncertain about the future.",
+                    "D: Take a break and come back with a refreshed mindset.",
+                    "E: Focus on finding the silver lining and stay optimistic."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2 }
+            },
+            {
+                "question": "You’re struggling to meet a deadline and feel pressure mounting. How do you deal with it?",
+                "options": [
+                    "A: Stay focused and optimistic, working efficiently to meet the deadline.",
+                    "B: Get anxious and think there’s no way to finish on time.",
+                    "C: Try to find a way to delegate the task to someone else.",
+                    "D: Take a break to calm down, then re-focus on the task.",
+                    "E: Accept that I’ll miss the deadline and feel defeated."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 3, "D": 4, "E": 2 }
+            },
+            {
+                "question": "Your team is struggling with a difficult project. How do you keep everyone motivated?",
+                "options": [
+                    "A: Remind everyone of the bigger picture and the value of perseverance.",
+                    "B: Acknowledge the challenges and encourage taking a break.",
+                    "C: Express concern about the project’s outcome, which makes others worry.",
+                    "D: Suggest that we all just push through, regardless of how we feel.",
+                    "E: Focus on the positive aspects and remind the team of past successes."
+                ],
+                "answer_mapping": { "A": 5, "B": 4, "C": 2, "D": 3, "E": 1 }
+            },
+            {
+                "question": "You’ve faced setbacks in your career. How do you stay optimistic about future opportunities?",
+                "options": [
+                    "A: Use setbacks as lessons and remain open to new opportunities.",
+                    "B: Feel that the setbacks are signs that I’m not cut out for this career.",
+                    "C: Look for small victories and remind myself that success takes time.",
+                    "D: Worry about the future and start doubting my abilities.",
+                    "E: Focus on maintaining a positive attitude, regardless of setbacks."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
+            },
+            {
+                "question": "You’re part of a team working on a challenging project. How do you approach the challenges ahead?",
+                "options": [
+                    "A: Maintain a positive attitude, encouraging the team to keep going.",
+                    "B: Doubt that we’ll succeed, feeling overwhelmed by the challenges.",
+                    "C: Acknowledge the challenges but stay hopeful about overcoming them.",
+                    "D: Suggest we abandon the project, fearing it will fail.",
+                    "E: Focus on how difficult the task is and feel discouraged."
+                ],
+                "answer_mapping": { "A": 5, "B": 1, "C": 4, "D": 2, "E": 3 }
             }
         ]
 }

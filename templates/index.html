@@ -6,23 +6,28 @@
     <title>Emotional Intelligence Assessment Form</title>
     <link rel="stylesheet" href="static/style.css">
     <script>
-        // Function to enable or disable the button based on input field value
+        // Function to enable or disable the button based on input field values
         function toggleButton() {
             const ageInput = document.getElementById("age");
+            const genderSelect = document.getElementById("gender");
             const submitButton = document.querySelector("button[type='submit']");
             
-            // Enable button if age input is not empty
-            if (ageInput.value.trim() !== "") {
+            // Enable button only if both age and gender are selected
+            if (ageInput.value.trim() !== "" && genderSelect.value !== "") {
                 submitButton.disabled = false;
             } else {
                 submitButton.disabled = true;
             }
         }
-
-        // Event listener for input field to call toggleButton when user types
+        
+        // Event listener for input fields to call toggleButton when user types/selects
         window.onload = function() {
             const ageInput = document.getElementById("age");
+            const genderSelect = document.getElementById("gender");
+            
             ageInput.addEventListener("input", toggleButton);
+            genderSelect.addEventListener("change", toggleButton);
+            
             toggleButton(); // Call on load to set initial state of the button
         };
     </script>
@@ -31,16 +36,24 @@
     <div class="title">EQfiy</div>
     <div class="card">
         <div class="card-IMG">
-        <p class="small">Let's Play Together</p>
-        <p class="big">JOIN THE FUN!</p>
-        <img src="../static/age1.jpg" alt="EQ Image">
-    </div>
+            <p class="small">Let's Play Together</p>
+            <p class="big">JOIN THE FUN!</p>
+            <img src="../static/age1.jpg" alt="EQ Image">
+        </div>
     </div>
     <div class="container">
         <h1>Emotional Intelligence</h1>
         <form method="POST" action="/questions">
-            <h3>Can You specify your age below</h3>
+            <h3>Can you specify your age and gender below?</h3>
+
             <input type="text" id="age" name="age"><br><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+
             <button type="submit" disabled>Next</button>
         </form>
     </div>
