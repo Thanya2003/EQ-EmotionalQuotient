@@ -9,6 +9,7 @@ from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 import numpy as np
 from scipy import stats
+import os
 
 # Database Setup
 Base = declarative_base()
@@ -44,7 +45,7 @@ app = Flask(__name__)
 app.secret_key = 'thanya'
 
 # Database setup
-DATABASE_URI = "mysql+pymysql://root:123Thanya@localhost/eq_assessment_db"
+DATABASE_URI = os.environ.get('DATABASE_URI')
 engine = create_engine(DATABASE_URI)
 Base.metadata.create_all(engine)
 SessionLocal = sessionmaker(bind=engine)
@@ -395,4 +396,4 @@ def predict():
         db_session.close()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0")
