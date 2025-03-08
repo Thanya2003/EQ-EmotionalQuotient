@@ -298,6 +298,15 @@ def generate_recommendations(age, score, parameter_scores):
     return recommendations
 def evaluate_eq(age, score):
     if 1 <= age <= 12:
+        if score < 40:
+            return "Minimal EQ"
+        elif 40 <= score <= 60:
+            return "Moderate EQ"
+        elif 60 < score <= 80:
+            return "Excellent EQ"
+        else:
+            return "Advanced EQ"
+    elif 13 <= age <= 17:
         if score < 50:
             return "Minimal EQ"
         elif 50 <= score <= 70:
@@ -306,21 +315,12 @@ def evaluate_eq(age, score):
             return "Excellent EQ"
         else:
             return "Advanced EQ"
-    elif 13 <= age <= 17:
+    elif age >= 18:
         if score < 60:
             return "Minimal EQ"
-        elif 60 <= score <= 80:
+        elif 60 <= score <= 75:
             return "Moderate EQ"
-        elif 80 < score <= 90:
-            return "Excellent EQ"
-        else:
-            return "Advanced EQ"
-    elif age >= 18:
-        if score < 70:
-            return "Minimal EQ"
-        elif 70 <= score <= 85:
-            return "Moderate EQ"
-        elif 90 < score <= 95:
+        elif 75 < score <= 90:
             return "Excellent EQ"
         else:
             return "Advanced EQ"
