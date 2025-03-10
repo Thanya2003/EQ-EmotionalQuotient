@@ -1,19 +1,18 @@
-FROM python:3.10-slim
+# Use a lightweight Python image
+FROM python:3.11
 
+# Set the working directory
 WORKDIR /app
 
-# Install system dependencies required for building Python packages
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    gcc \
-    python3-dev \
-    && rm -rf /var/lib/apt/lists/*
-
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
+# Copy application files
 COPY . .
 
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Set environment variables
+ENV PORT=5000
 EXPOSE 5000
 
+# Start the application
 CMD ["python", "index.py"]
