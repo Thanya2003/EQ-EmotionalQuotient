@@ -10,8 +10,7 @@ COPY . .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Set environment variables
-ENV PORT=5000
+
 EXPOSE 5000
 
 # Start the application

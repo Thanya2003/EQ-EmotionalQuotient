@@ -10,10 +10,10 @@ services:
     volumes:
       - .:/app
     depends_on:
-      - db
+      - database
     restart: always
 
-  db:
+  database:
     image: mysql:8.0
     environment:
       - MYSQL_ROOT_PASSWORD=123Thanya
