@@ -45,7 +45,7 @@ app = Flask(__name__)
 app.secret_key = 'thanya'
 
 # Database setup
-DATABASE_URI = os.environ.get('DATABASE_URI')
+DATABASE_URI="mysql+pymysql://root:123Thanya@db/eq_assessment_db"
 engine = create_engine(DATABASE_URI)
 Base.metadata.create_all(engine)
 SessionLocal = sessionmaker(bind=engine)
